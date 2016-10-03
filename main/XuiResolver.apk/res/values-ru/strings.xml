@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XuiResolver</string>
+    <string name="cancel">Отмена</string>
+    <string name="activity_resolver_use_always">Всегда</string>
+    <string name="activity_resolver_use_once">Один раз</string>
+    <string name="noApplications">Нет приложений способных выполнить это действие.</string>
+</resources>

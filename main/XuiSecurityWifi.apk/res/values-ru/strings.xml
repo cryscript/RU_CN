@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Проверка WiFi</string>
+    <string name="wifiwarning_notify">Предупреждение о безопасности Wi-Fi</string>
+    <string name="wifiwarning_content_dns">Текущий DNS сервис сети WiFi \"%1$s\" является возломанным, это может привести к раскрытию конфиденциальной информации, пароли от учетных записей могут быть украдены, возможно повреждение имущества,Рекомендуется отключить.</string>
+    <string name="wifiwarning_content_fishing">Текущая сеть WiFi \"%1$s\" является ложной сетью，это может привести к раскрытию конфиденциальной информации, пароли от учетных записей могут быть украдены, возможно повреждение имущества,Рекомендуется отключить.</string>
+    <string name="wifiwarning_content_arp">Текущая сеть WiFi \"%1$s\" была атакована методом ARP，это может привести к раскрытию конфиденциальной информации, пароли от учетных записей могут быть украдены, возможно повреждение имущества,Рекомендуется отключить.</string>
+    <string name="wifiwarning_btn_goonuse">продолжить</string>
+    <string name="wifiwarning_btn_closenet">отключиться</string>
+</resources>

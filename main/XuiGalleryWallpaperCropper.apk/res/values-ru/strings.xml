@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crop_wallpaper">Кадрировать обои</string>
+    <string name="wallpaper_instructions">Установить как обои</string>
+    <string name="wallpaper_load_fail">Не удалось загрузить изображение</string>
+    <string name="move_and_scale">Переместить и увеличить</string>
+    <string name="cancel">Отмена</string>
+    <string name="choose">Выбрать</string>
+    <string name="set">Установить</string>
+    <string name="setting_wallpaer">Настройки обоев</string>
+    <string name="on_loading">Загрузка изображения…</string>
+    <string name="setting_success">Готово</string>
+</resources>

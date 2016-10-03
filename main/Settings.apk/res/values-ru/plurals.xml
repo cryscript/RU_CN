@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fap_applock_app_count">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Вы в %1$d шагах от того, чтобы стать разработчиком</item>
+        <item quantity="one">Вы в %1$d шаге от тог, чтобы стать разработчиком</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль должен содержать хотя бы %d букв.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d букву.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль должен содержать хотя бы %d строчных букв.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d строчную букву.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль должен содержать хотя бы %d заглавных букв.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d заглавную букву.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль должен содержать хотя бы %d цифр.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d цифру.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль должен содержать хотя бы %d специальных символов.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d специальный символ.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль должен содержать хотя бы %d небуквенных символов.</item>
+        <item quantity="one">Пароль должен содержать хотя бы %d небуквенный символ.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Неверный PIN-код. Осталось %d попыток. После этого SIM-карта будет заблокирована и вам придется обратиться к оператору связи.</item>
+        <item quantity="one">Неверный PIN-код. Осталась %d попытка. После этого SIM-карта будет заблокирована и вам придется обратиться к оператору связи.</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">В течение %1$d минут до %2$s активны только напоминания и будильник.</item>
+        <item quantity="one">В течение %1$d минуты до %2$s активны только напоминания и будильник.</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">В течение %1$d часов до %2$s активны только напоминания и будильник.</item>
+        <item quantity="one">В течение %1$d часа до %2$s активны только напоминания и будильник.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d приложения могут читать уведомления</item>
+        <item quantity="one">%d приложение может читать уведомления</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d приложения соответствуют требованиям</item>
+        <item quantity="one">%d приложение соответствует требованиям</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">За %2$s память использовали %1$d приложения</item>
+        <item quantity="one">За %2$s память использовало %1$d приложение</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Настроены %1$d отпечатки пальцев</item>
+        <item quantity="one">Настроен %1$d отпечаток пальца</item>
+    </plurals>
+</resources>

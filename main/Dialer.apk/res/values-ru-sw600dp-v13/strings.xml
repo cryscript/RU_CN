@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_phone">Только планшетный ПК, без синхронизации</string>
+    <string name="composer_has_no_exportable_contact">Не найдены контакты для экспорта. Возможно, экспорт контактов с планшетного ПК не поддерживается поставщиком услуг передачи данных.</string>
+</resources>

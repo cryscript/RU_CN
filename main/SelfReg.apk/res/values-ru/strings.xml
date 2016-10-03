@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DM</string>
+    <string name="debug_menu">DM меню отладки</string>
+    <string name="menu_save">Сохранить</string>
+    <string name="menu_cancel">Отмена</string>
+    <string name="notify_msg">Уведомление China Mobile:</string>
+    <string name="notify_msg_enhanced">Расширенное послепродажное обслуживание:</string>
+    <string name="notify_confirm_msg">Принять расширенное послепродажное обслуживание?</string>
+    <string name="menu_ok">Хорошо</string>
+    <string name="menu_yes">Да</string>
+    <string name="menu_no">Нет</string>
+    <string name="selfregist_notify_title">Уведомление China Mobile</string>
+    <string name="selfregist_notify_message">In order to provide free enhanced customer service, DM needs to register your equipment free to the China Mobile terminal management platform.</string>
+    <string name="selfregist_tip">In order to provide free enhanced customer service, which is built by China Mobile terminal management platform to realize the management of terminal such as remote terminal parameter setting and software version upgrade, DM needs to register your equipment free to the China Mobile terminal management platform. Registration will be sent through the device information messages, the message is only sent once free and will not send in Hong Kong and Macao and in international roaming state. If press Ok, it show you agree to register and use the enhanced customer service. Ohterwise if you select Cancel, China Mobile will not provide this service.</string>
+    <string name="selfregist_second_tip">If you cancel, China Mobile will no longer provide enhanced after sale service permanent free, do you want to cancel this service?</string>
+    <string name="dataconnect_notify_title">China Mobile Notice</string>
+    <string name="dataconnect_notify_message">China Mobile enhanced customer service will request application access and configure your device settings information.</string>
+    <string name="dataconnect_tip">China Mobile enhanced customer service will request application access and configure your device settings information, which use cellular data network. The information to be set is not involved your privacy. All the data traffic generated in the process are free. The service will not be opened in Hong Kong, Macao and in international roaming status. If you select Ok, it show you agree to access your device information and the use of mobile data network. Ohterwise if you select Cancel, China Mobile will not start the service.</string>
+    <string name="dataconnect_second_tip">If you cancel, China Mobile will not be able to set terminal parameters correctly, do you want to cancel this service?</string>
+    <string name="dataconnect_always_tip">always do that</string>
+    <string name="dataconnect_query_timeout">Timeout for query</string>
+</resources>

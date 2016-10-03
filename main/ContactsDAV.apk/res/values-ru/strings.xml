@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContactsDAV</string>
+    <string name="help">Помощь</string>
+    <string name="login_auth_preemptive">Упреждающая идентификация (рекомендовано, но несовместимо с Digest идентификацией)</string>
+    <string name="login_base_url">Базовый URL (коллекции будут определены автоматически):</string>
+    <string name="login_email_address">Email:</string>
+    <string name="login_email_description">Введите свой адрес электронной почты. Имя домена из него будет использовано для автоматического определения настроек сервиса.</string>
+    <string name="login_http_warning">Если вы не используете шифрование (HTTPS), кто-нибудь может легко перехватить ваши имена, пароли, контакты и события календарей.</string>
+    <string name="login_password">Пароль:</string>
+    <string name="login_type_email">Вход по адресу email</string>
+    <string name="login_type_email_description">Данные сервиса будут автоматически определены через имя домена. Пример: myaccount@icloud.com</string>
+    <string name="login_type_url">Вход через URL и имя пользователя</string>
+    <string name="login_type_url_description">Данные сервиса будут автоматически определены через начальную часть URL и имя пользователя. Обычно используется для частных сервисов поддерживаемых самостоятельно.</string>
+    <string name="login_user_name">Имя пользователя:</string>
+    <string name="main_manage_accounts">Управление учётными данными синхронизации</string>
+    <string name="next">Далее</string>
+    <string name="setup_account_details">Данные аккаунта</string>
+    <string name="setup_account_name">Имя аккаунта:</string>
+    <string name="setup_account_name_hint">Мой аккаунт CalDAV/CardDAV</string>
+    <string name="setup_add_account">Добавить аккаунт</string>
+    <string name="setup_address_books">Контакты</string>
+    <string name="setup_calendars">Календари</string>
+    <string name="setup_querying_server">Опрашиваем сервер. Пожалуйста подождите…</string>
+    <string name="setup_read_only">только чтение</string>
+    <string name="setup_select_address_book">Выберите единственную адресную книгу (нажмите снова для отмены выбора):</string>
+    <string name="setup_select_calendars">Выберите ваши календари:</string>
+    <string name="setup_what_to_sync">Какие коллекции будут синхронизироваться?</string>
+    <string name="settings_authentication">Идентификация</string>
+    <string name="settings_enter_password">Введите свой пароль:</string>
+    <string name="settings_enter_username">Введите имя пользователя:</string>
+    <string name="settings_no_accounts">Не найдено учётных записей DAVdroid</string>
+    <string name="settings_password">Пароль</string>
+    <string name="settings_password_summary">Обновить пароль в соответствии с вашим сервером.</string>
+    <string name="settings_preemptive">Упреждающая идентификация</string>
+    <string name="settings_preemptive_off">Учетные данные посылаются после их запроса сервером</string>
+    <string name="settings_preemptive_on">Учетные данные посылаются с каждым запросом (рекомендовано)</string>
+    <string name="settings_sync">Синхронизация</string>
+    <string name="settings_sync_interval_calendars">Период синхронизации календарей</string>
+    <string name="settings_sync_interval_contacts">Интервал синхронизации контактов</string>
+    <string name="settings_sync_interval_tasks">Период синхронизации задач</string>
+    <string name="settings_sync_summary_manually">Вручную</string>
+    <string name="settings_sync_summary_not_available">Недоступно</string>
+    <string name="settings_sync_summary_periodically">Каждые %d минут и немедленно при локальных изменениях</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_username">Имя</string>
+    <string name="setup_install_apps_info">"Чистый Android не поддерживает списки to-do (в отличии от календарей и контактов)."</string>
+    <string name="setup_install_tasks_app_html">"&lt;p>DAVdroid способен синхронизировать задачи с приложением &lt;a href=market://details?id=org.dmfs.tasks>Задачи&lt;/a> (от Marten Gajda).&lt;/p> &lt;p>Из-за &lt;a href=https://code.google.com/p/android/issues/detail?id=25906>ошибки Android&lt;/a>, &lt;b>Программа Задачи должна быть установлена до установки DAVdroid&lt;/b> (в противном случае DAVdroid не может получить разрешение на доступ к поставщику задач).&lt;/p> &lt;p>Если вы хотите, чтобы ваши задачи были синхронизированы:&lt;/p> &lt;p>1. Установите приложение Задачи.&lt;br/> 2. Переустановите DAVdroid (для получения доступа к задачам). Удаление DAVdroid отключит от DAVdroid ваш аккаунт и удалит несинхронизированные данные.&lt;br/> 3. Добавьте свой DAVdroid аккаунт снова.&lt;/p> &lt;p>В противном случае, вы можете пропустить этот шаг.&lt;/p>"</string>
+    <string name="setup_select_task_lists">Выберите задачу для синхронизации</string>
+    <string name="setup_task_lists">Список задач</string>
+    <string name="skip">Пропустить</string>
+    <string name="debug_info_title">Отладочная информация</string>
+    <string name="donate_later">Может быть позже</string>
+    <string name="donate_message">"Мы рады, что вы используете DAVdroid, который является программой с открытым исходным кодом (GPLv3). Поскольку развитие DAVdroid это тяжелая работа, и нам потребовались тысячи рабочих часов, пожалуйста, подумайте о пожертвовании."</string>
+    <string name="donate_now">Показать страницу пожертвования</string>
+    <string name="donate_title">Информация о исходном коде</string>
+    <string name="main_how_to_setup_html">&lt;p>&lt;b>Как настроить&lt;/b>&lt;/p> &lt;p>DAVdroid стремится поддерживать совместимость со всеми CalDAV/CardDAV сервисами. Чтобы посмотреть список протестированных сервисов и информацию по настройке, вместе с некоторой информацией о TLS и сертификатах, перейдите на нашу &lt;a href=https://davdroid.bitfire.at/configuration?pk_campaign=davdroid-app&amp;amp;pk_kwd=main-activity>страницу настройки&lt;/a>.&lt;/p></string>
+    <string name="main_license_html">&lt;p>&lt;b>License&lt;/b>&lt;/p> &lt;p>Copyright © 2013 – 2015 Ricki Hirner, Bernhard Stockmann (&lt;a href=https://www.bitfire.at>bitfire web engineering&lt;/a>). All rights reserved. This program and the accompanying materials are made available under the terms of the GNU Public License v3.0 which accompanies this distribution, and is available at &lt;a href=http://www.gnu.org/licenses/gpl.html>http://www.gnu.org/licenses/gpl.html&lt;/a>. As far as Google Play, Samsung Store or Amazon Appstore require other terms, the respective terms apply only to versions that are downloaded using these services.&lt;/p></string>
+    <string name="main_open_source_disclaimer_html">&lt;p>&lt;b>Open source&lt;/b>&lt;/p> &lt;p>DAVdroid is designed to be an open-source project from the very first beginning. It is always possible to compile the app yourself and use it for free without any obligations. The &lt;a href=https://davdroid.bitfire.at/source?pk_campaign=davdroid-app&amp;amp;pk_kwd=main-activity>source code is available&lt;/a>, and you can &lt;a href=https://f-droid.org/app/at.bitfire.davdroid>download the app on F-Droid&lt;/a>.&lt;/p>&lt;/p></string>
+    <string name="main_play_workaround_html">&lt;p>Thank you for buying DAVdroid on Google Play, thus supporting the project. Unfortunately, there are two Google Play bugs that may be of concern for you. Click on a link to view details.&lt;/p> &lt;p>&lt;a href=https://davdroid.bitfire.at/faq/entry/account-gone-after-reboot>1. Accounts may be gone after a reboot&lt;/a>: affects Android 4.1, 4.2 with certain devices (for instance, most Samsung devices), possible some other devices. Most recent Android versions work fine.&lt;br/> &lt;a href=https://davdroid.bitfire.at/faq/entry/account-gone-after-updating>2. Accounts may be gone after upgrading DAVdroid&lt;/a>: affects some Android 4.4.2 devices (known for Nexus devices and Moto G), possible a few other ones. Most recent Android versions work fine.&lt;/p> &lt;p>&lt;strong>If you have such issues, please &lt;a href=market://details?id=at.bitfire.davdroid.jbworkaround>install the DAVdroid JB Workaround&lt;/a>.&lt;/strong>&lt;/p></string>
+    <string name="main_show_debug_info">Показать информацию отладки</string>
+    <string name="main_support_html">"&lt;p>&lt;b>Support&lt;/b>&lt;/p> &lt;p>&lt;b>In case of problems, check the &lt;a href=https://davdroid.bitfire.at/faq?pk_campaign=davdroid-app&amp;amp;pk_kwd=main-activity>frequently asked questions&lt;/a> first. To get assistance or discuss about DAVdroid-related topics, have a look in our &lt;a href=https://davdroid.bitfire.at/forums?pk_campaign=davdroid-app&amp;amp;pk_kwd=main-activity>DAVdroid forums&lt;/a>.&lt;/b> Please do not blackmail us with bad ratings in the stores (it's futile and discouraging for both sides).&lt;/p>"</string>
+    <string name="main_translation_info">Переводы на другие языки, кроме английского и немецкого языков были предоставлены различными людьми, которые упоминаются в соответствующей языковой версии. Fedor917</string>
+    <string name="main_used_libraries_heading">DAVdroid использует эти библиотеки (в алфавитном порядке)</string>
+    <string name="main_welcome">Добро пожаловать в DAVdroid/%s!</string>
+    <string name="main_what_is_davdroid_html">&lt;p>DAVdroid является Android 4+ адаптером для синхронизации CalDAV/CardDAV. Чтобы использовать его, просто добавьте DAVdroid учетную запись для вашего сервера CalDAV/CardDAV и ваши контакты/события/задачи будут синхронизированы в обоих направлениях.&lt;/p> &lt;p>Для получения дополнительной информации, пожалуйста смортите &lt;a href=https://davdroid.bitfire.at/?pk_campaign=davdroid-app&amp;amp;pk_kwd=main-activity>DAVdroid главную страницу&lt;/a>. DAVdroid  уважает вашу частную жизнь, ознакомиться с нашей &lt;a href=https://davdroid.bitfire.at/privacy?pk_campaign=davdroid-app&amp;amp;pk_kwd=main-activity>политикой конфиденциальности&lt;/a>.&lt;/p></string>
+    <string name="mtm_accept_cert">Принять неизвестный сертификат?</string>
+    <string name="mtm_accept_servername">Принять несовпадающее имя сервера?</string>
+    <string name="mtm_cert_details">Информация о сертификате:</string>
+    <string name="mtm_cert_expired">Сертификат сервера истек.</string>
+    <string name="mtm_connect_anyway">Хотите подключиться в любом случае?</string>
+    <string name="mtm_decision_abort">Отключиться</string>
+    <string name="mtm_decision_always">Всегда</string>
+    <string name="mtm_decision_once">Один раз</string>
+    <string name="mtm_hostname_mismatch">Сервер не может проверить подлинность, как \"%s\". Сертификат действителен только для:</string>
+    <string name="mtm_notification">Проверка сертификата</string>
+    <string name="mtm_trust_anchor">Сертификат сервера не подписан известным центром сертификации.</string>
+    <string name="please_wait">Пожалуйста, подождите</string>
+    <string name="send">Отправить</string>
+    <string name="settings_android_update_description">Обновление версии Android может повлиять на то как работает DAVdroid. Если возникли какие-либо проблемы, удалите учётные записи DAVdroid, и добавьте их снова.</string>
+    <string name="settings_android_update_title">Обновление версии Android</string>
+    <string name="settings_debug">Отладка</string>
+    <string name="settings_log_to_external_file">Журналирование во внешний файл</string>
+    <string name="settings_log_to_external_file_confirmation">Внешние файлы журнала будут содержать частные данные и могут быть доступны для других приложений. Отключите внешнее журналирование и удалите файлы журнала после использования.</string>
+    <string name="settings_log_to_external_file_no_external_storage">Внешнее хранилище недоступно</string>
+    <string name="settings_log_to_external_file_off">Журналы записаны в ADB</string>
+    <string name="settings_log_to_external_file_on">Журналы записываются в %s (если возможно)</string>
+    <string name="settings_log_verbose">Детальное журналирование</string>
+    <string name="settings_log_verbose_off">Записывать в журнал только информацию о синхронизации</string>
+    <string name="settings_log_verbose_on">Записывать в журнал информацию о синхронизации и сетевом траффике</string>
+    <string name="settings_security_warning">Возможная угроза безопасности!</string>
+    <string name="settings_version_update_description">Внутренние настройки были обновлены. Если существуют какие либо проблемы, пожалуйста удалите DAVdroid и установите его снова.</string>
+    <string name="settings_version_update_title">Настройки были обновлены</string>
+    <string name="setup_account_name_info">Используйте ваш адрес электронной почты как имя учётной записи. Система Android использует это имя как поле ОРГАНИЗАТОР для событий кторые вы создаёте. Вы не можете иметь две учётных записи с одинаковым именем.</string>
+    <string name="setup_no_collections_found">Контакты или календари не найдены</string>
+    <string name="setup_resource_detection">Определение ресурсов</string>
+    <string name="setup_view_logs">Просмотр журналов</string>
+    <string name="sync_error">Ошибка %s</string>
+    <string name="sync_error_calendar">Синхронизация календаря завершена с ошибкой (%s)</string>
+    <string name="sync_error_contacts">Синхронизация контактов завершена с ошибкой (%s)</string>
+    <string name="sync_error_http_dav">Ошибка сервера %s</string>
+    <string name="sync_error_local_storage">Ошибка базы данных в процессе %s</string>
+    <string name="sync_error_tasks">Синхронизация задачи завершена с ошибкой (%s)</string>
+    <string name="sync_error_unauthorized">Имя пользователя/пароль неверные</string>
+    <string name="default_carddav_account_type">com.zui.davdroid.account</string>
+    <string name="default_carddev_account_name">CardDAV</string>
+    <string name="icloud_account_name">iCloud</string>
+    <string name="icloud_account_type">com.zui.davdroid.account.icloud</string>
+    <string name="login_account_description_hint">Описание</string>
+    <string name="login_account_description_label">Описание</string>
+    <string name="login_apple_id_label">Apple ID</string>
+    <string name="login_default_empty_error">"Сервер, Имя пользователя и Пароль не может быть пустым!"</string>
+    <string name="login_icloud_empty_error">"Apple Id и пароль не может быть пустым!"</string>
+    <string name="login_label">Вход</string>
+    <string name="login_server_name_hint">Сервер my.webhost.com</string>
+    <string name="login_server_name_label">Сервер</string>
+    <string name="setup_dialog_retry">Повторить</string>
+    <string name="setup_done">Готово</string>
+    <string name="setup_login_failed">Ошибка входа</string>
+    <string name="setup_login_icloud_info_error">Пожалуйста, проверьте свой идентификатор Apple ID и пароль!</string>
+    <string name="setup_login_icloud_info_error_for_two_step">"Пожалуйста, проверьте свой идентификатор Apple ID и пароль!
+
+Если вы включили двухэтапное подтверждение, убедитесь, что вы создали и ввели "<a href="https://support.apple.com/en-us/HT204397">СПЕЦИАЛЬНЫЙ ПАРОЛЬ ПРОГРАММЫ</a>. Пожалуйста, откройте <a href="https://appleid.apple.com">Страницу учетной записи Apple ID</a> для создания СПЕЦИАЛЬНОГО ПАРОЛЯ ПРИЛОЖЕНИЯ.</string>
+    <string name="setup_login_network_error">Пожалуйста, проверьте подключение к сети!</string>
+    <string name="setup_querying_server_carddav">CardDAV загружается. Пожалуйста, подождите…</string>
+    <string name="setup_querying_server_icloud">iCloud загружается. Пожалуйста, подождите…</string>
+</resources>

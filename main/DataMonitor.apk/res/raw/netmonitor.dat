@@ -1,0 +1,564 @@
+[section version] 
+1001
+
+[section city code]
+1:Пекин:10:Пекин:10
+2:Шанхай:21:Шанхай:21
+3:Тяньцзинь:22:Тяньцзинь:22
+4:Чунцин:23:Чунцин:23
+5:Хэбэй:311:Шицзячжуан:311
+6:Хэбэй:311:Ханьдань:310
+7:Хэбэй:311:Баодин:312
+8:Хэбэй:311:Чжанцзякоу:313
+9:Хэбэй:311:Чэндэ:314
+10:Хэбэй:311:Таншань:315
+11:Хэбэй:311:Ланфан:316
+12:Хэбэй:311:Цанчжоу:317
+13:Хэбэй:311:Hengshui:318
+14:Хэбэй:311:Синтай:319
+15:Хэбэй:311:Циньхуандао:335
+16:Шаньси:351:Тайюань:351
+17:Шаньси:351:Shuozhou:349
+18:Шаньси:351:Синьчжоу:350
+19:Шаньси:351:Датун:352
+20:Шаньси:351:Yangquan:353
+21:Шаньси:351:Чжинчон:354
+22:Шаньси:351:Чанчжи:355
+23:Шаньси:351:Джинченг:356
+24:Шаньси:351:Линьфэнь:357
+25:Шаньси:351:Luliang:358
+26:Шаньси:351:Юньчэн:359
+27:Внутренняя Монголия:471:Хух:471
+28:Внутренняя Монголия:471:Хулун-Буир:470
+29:Внутренняя Монголия:471:Заголовок:472
+30:Внутренняя Монголия:471:Ухай:473
+31:Внутренняя Монголия:471:Wulanchabu:474
+32:Внутренняя Монголия:471:Tongliao:475
+33:Внутренняя Монголия:471:Чифэн:476
+34:Внутренняя Монголия:471:Ордос:477
+35:Внутренняя Монголия:471:Bayannaoer:478
+36:Внутренняя Монголия:471:Xilin Гол лига:479
+37:Внутренняя Монголия:471:Xinganmeng:482
+38:Внутренняя Монголия:471:Алашань:483
+39:Ляонин:24:Шэньян:24
+40:Ляонин:24:Телин:24
+41:Ляонин:24:Далянь:411
+42:Ляонин:24:Аньшань:412
+43:Ляонин:24:Фушунь:24
+44:Ляонин:24:Benxi:24
+45:Ляонин:24:Даньдунский:415
+46:Ляонин:24:Цзиньчжоу:416
+47:Ляонин:24:Инкоу:417
+48:Ляонин:24:Фусинь:418
+49:Ляонин:24:Liaoyang:419
+50:Ляонин:24:Чаоян:421
+51:Ляонин:24:Panjin:427
+52:Ляонин:24:Хулудао:429
+53:Цзилинь:431:Чанчунь:431
+54:Цзилинь:431:Цзилинь:432
+55:Цзилинь:431:Яньбянь корейского автономного округа:433
+56:Цзилинь:431:Siping:434
+57:Цзилинь:431:Тунхуа:435
+58:Цзилинь:431:Baicheng:436
+59:Цзилинь:431:Liaoyuan:437
+60:Цзилинь:431:Мацубара:438
+61:Цзилинь:431:Baishan:439
+62:Хэйлунцзян:451:Харбин:451
+63:Хэйлунцзян:451:Цицикар:452
+64:Хэйлунцзян:451:Муданьцзян:453
+65:Хэйлунцзян:451:Цзямусы:454
+66:Хэйлунцзян:451:Suihua:455
+67:Хэйлунцзян:451:Хэйхэ:456
+68:Хэйлунцзян:451:daxinganling:457
+69:Хэйлунцзян:451:Ичунь:458
+70:Хэйлунцзян:451:Дацин:459
+71:Хэйлунцзян:451:цитайхэ:464
+72:Хэйлунцзян:451:Цзиси:467
+73:Хэйлунцзян:451:Неган:468
+74:Хэйлунцзян:451:в Мексике:469
+75:Цзянсу:25:Нанкин:25
+76:Цзянсу:25:Уси:510
+77:Цзянсу:25:Чжэньцзян:511
+78:Цзянсу:25:Сучжоу:512
+79:Цзянсу:25:Наньтун:513
+80:Цзянсу:25:Янчжоу:514
+81:Цзянсу:25:Яньчэн:515
+82:Цзянсу:25:Сюйчжоу:516
+83:Цзянсу:25:Хуайань:517
+84:Цзянсу:25:Ляньюньган:518
+85:Цзянсу:25:Чанчжоу:519
+86:Цзянсу:25:Тайчжоу:523
+87:Цзянсу:25:суцянь:527
+88:Чжэцзян:571:Ханчжоу:571
+89:Чжэцзян:571:Цюйчжоу:570
+90:Чжэцзян:571:Хучжоу:572
+91:Чжэцзян:571:Цзясин:573
+92:Чжэцзян:571:Нинбо:574
+93:Чжэцзян:571:Шаосин:575
+94:Чжэцзян:571:Тайчжоу:576
+95:Чжэцзян:571:Вэньчжоу:577
+96:Чжэцзян:571:Йосу:578
+97:Чжэцзян:571:Цзиньхуа:579
+98:Чжэцзян:571:Чжоушань:580
+99:Аньхой:551:Хэфэй:551
+100:Аньхой:551:Chuzhou:550
+101:Аньхой:551:Бэнбу:552
+102:Аньхой:551:Уху:553
+103:Аньхой:551:Хуайнань:554
+104:Аньхой:551:МОС:555
+105:Аньхой:551:Аньцин:556
+106:Аньхой:551:Сучжоу:557
+107:Аньхой:551:Фуян, Bozhou:558
+108:Аньхой:551:Хуаншань:559
+109:Аньхой:551:Хуайбэй:561
+110:Аньхой:551:Tongling:562
+111:Аньхой:551:Сюаньчэн:563
+112:Аньхой:551:Луан:564
+113:Аньхой:551:Чаоху:565
+114:Аньхой:551:Chizhou:566
+115:Фуцзянь:591:Фучжоу:591
+116:Фуцзянь:591:Сямэнь:592
+117:Фуцзянь:591:Ningde:593
+118:Фуцзянь:591:Путянь:594
+119:Фуцзянь:591:Цюаньчжоу:595
+120:Фуцзянь:591:Чжанчжоу:596
+121:Фуцзянь:591:Longyan:597
+122:Фуцзянь:591:Sanming:598
+123:Фуцзянь:591:Наньпин:599
+124:Цзянси:791:Наньчан:791
+125:Цзянси:791:Интань:701
+126:Цзянси:791:Xinyu:790
+127:Цзянси:791:Цзюцзян:792
+128:Цзянси:791:Шанжао:+793
+129:Цзянси:791:Фучжоу:794
+130:Цзянси:791:Ичунь:795
+131:Цзянси:791:Джан:796
+132:Цзянси:791:Ганьчжоу:797
+133:Цзянси:791:Цзиндэчжэнь:798
+134:Цзянси:791:Пинсян:799
+135:Шаньдун:531:Цзинань:531
+136:Шаньдун:531:Хезе:530
+137:Шаньдун:531:Циндао:532
+138:Шаньдун:531:Цзыбо:533
+139:Шаньдун:531:Техас:534
+140:Шаньдун:531:Яньтай:535
+141:Шаньдун:531:Вэйфан:536
+142:Шаньдун:531:Цзинин:537
+143:Шаньдун:531:Тайань:538
+144:Шаньдун:531:Линьи:539
+145:Шаньдун:531:Бинжоу:543
+146:Шаньдун:531:Дунин:546
+147:Шаньдун:531:Вэйхай:631
+148:Шаньдун:531:Цзаочжуан:632
+149:Шаньдун:531:Солнечный свет:633
+150:Шаньдун:531:Laiwu:634
+151:Шаньдун:531:Ляочэн:635
+152:Хэнань:371:Чжэнчжоу:371
+153:Хэнань:371:Шанцю:370
+154:Хэнань:371:Аньян:372
+155:Хэнань:371:Синьсян:373
+156:Хэнань:371:Сюйчан:374
+157:Хэнань:371:Pingdingshan:375
+158:Хэнань:371:Синьян:376
+159:Хэнань:371:Наньян:377
+160:Хэнань:371:Кайфэн:378
+161:Хэнань:371:Лоян:379
+162:Хэнань:371:Jiaozuo, Jiyuan:391
+163:Хэнань:371:Hebi:392
+164:Хэнань:371:Пуян:393
+165:Хэнань:371:Zhoukou:394
+166:Хэнань:371:Luohe:395
+167:Хэнань:371:Zhumadian:396
+168:Хэнань:371:Sanmenxia:398
+169:Хубэй:27:Ухань:27
+170:Хубэй:27:Сянфань:710
+171:Хубэй:27:Ezhou:711
+172:Хубэй:27:Xiaogan:712
+173:Хубэй:27:Huanggang:713
+174:Хубэй:27:Йеллоустоун:714
+175:Хубэй:27:Xianning:715
+176:Хубэй:27:Цзинчжоу:716
+177:Хубэй:27:Ичан:717
+178:Хубэй:27:Enshi:718
+179:Хубэй:27:Шиян:719
+180:Хубэй:27:Suizhou:722
+181:Хубэй:27:Jingmen:724
+182:Хубэй:27:Цзянхань:728
+183:Хунань:731:Чанша:731
+184:Хунань:731:Юэян:730
+185:Хунань:731:Чжучжоу:731
+186:Хунань:731:Сянтань:731
+187:Хунань:731:Хэнян:734
+188:Хунань:731:Чэньчжоу:735
+189:Хунань:731:Чандэ:736
+190:Хунань:731:Yiyang:737
+191:Хунань:731:Loudi:738
+192:Хунань:731:Шаоян:739
+193:Хунань:731:Xiangxi:743
+194:Хунань:731:Чжанцзяцзе:744
+195:Хунань:731:Huaihua:745
+196:Хунань:731:Yongzhou:746
+197:Гуандун:20:Гуанчжоу:20
+198:Гуандун:20:Shanwei:660
+199:Гуандун:20:Янцзян:662
+200:Гуандун:20:Цзеян:663
+201:Гуандун:20:Маомин:668
+202:Гуандун:20:Цзянмэнь:750
+203:Гуандун:20:Шаогуань:751
+204:Гуандун:20:Хуэйчжоу:752
+205:Гуандун:20:Мэйчжоу:753
+206:Гуандун:20:Шаньтоу:754
+207:Гуандун:20:Шэньчжэнь:755
+208:Гуандун:20:Чжухай:756
+209:Гуандун:20:Фошань:757
+210:Гуандун:20:Чжаоцин:758
+211:Гуандун:20:Чжаньцзян:759
+212:Гуандун:20:Чжуншань:760
+213:Гуандун:20:Heyuan:762
+214:Гуандун:20:Цинюань:763
+215:Гуандун:20:Юньфу:766
+216:Гуандун:20:Chaozhou:768
+217:Гуандун:20:Дунгуань:769
+218:Гуанси:771:Наньнин, Chongzuo:771
+219:Гуанси:771:Fangchenggang:770
+220:Гуанси:771:Лючжоу, гостей:772
+221:Гуанси:771:Guilin:773
+222:Гуанси:771:Wuzhou, Хэчжоу:774
+223:Гуанси:771:Юлин, Guigang:775
+224:Гуанси:771:Bose:776
+225:Гуанси:771:Qinzhou:777
+226:Гуанси:771:Hechi:778
+227:Гуанси:771:Северное море:779
+228:Хайнань:898:Хайкоу:898
+229:Хайнань:898:Санья:898
+230:Сычуань:28:Чэнду:28
+231:Сычуань:28:Цзыян:28
+232:Сычуань:28:Meishan:28
+233:Сычуань:28:Паньчжихуа:812
+234:Сычуань:28:Цзыгун:813
+235:Сычуань:28:Мяньян:816
+236:Сычуань:28:Наньчун:817
+237:Сычуань:28:Флорида:818
+238:Сычуань:28:Суйнин:825
+239:Сычуань:28:Квон:826
+240:Сычуань:28:Bazhong:827
+241:Сычуань:28:Luzhou:830
+242:Сычуань:28:Ибинь:831
+243:Сычуань:28:Neijiang:832
+244:Сычуань:28:Лэшань:833
+245:Сычуань:28:Liangshan Yi автономный округ:834
+246:Сычуань:28:Ya'an:835
+247:Сычуань:28:Ганзи Тибетский автономный округ:836
+248:Сычуань:28:Аба тибетском и Цян автономный:837
+249:Сычуань:28:Деянг:838
+250:Сычуань:28:Гуанъюань:839
+251:Гуйчжоу:851:Гуйяне:851
+252:Гуйчжоу:851:Цзуньи:852
+253:Гуйчжоу:851:Аньшунь:853
+254:Гуйчжоу:851:дуюн:854
+255:Гуйчжоу:851:Кери:855
+256:Гуйчжоу:851:Тунжэнь:856
+257:Гуйчжоу:851:Бицзе:857
+258:Гуйчжоу:851:Люпаньшуй:858
+259:Гуйчжоу:851:Синъи:859
+260:Тибет:891:Лхаса:891
+261:Тибет:891:Шигадзе:892
+262:Тибет:891:Шаннан:893
+263:Тибет:891:Nyingchi:894
+264:Тибет:891:Чамдо:895
+265:Тибет:891:Nagqu:896
+266:Тибет:891:Али:897
+267:Юньнань:871:Куньмин:+871
+268:Юньнань:871:Сишуанбаньна:691
+269:Юньнань:871:Дэхун:692
+270:Юньнань:871:Zhaotong:870
+271:Юньнань:871:Дали:872
+272:Юньнань:871:Red River:+873
+273:Юньнань:871:Qujing:874
+274:Юньнань:871:Baoshan:875
+275:Юньнань:871:Wenshan:876
+276:Юньнань:871:Юйси:877
+277:Юньнань:871:Chuxiong:878
+278:Юньнань:871:Pu'er:879
+279:Юньнань:871:Lincang:883
+280:Юньнань:871:Nu River:886
+281:Юньнань:871:Diqing:887
+282:Юньнань:871:Лицзян:888
+283:Шэньси:29:Сиань:29
+284:Шэньси:29:Раскол:29
+285:Шэньси:29:Йанан:911
+286:Шэньси:29:Юлин:912
+287:Шэньси:29:Вэйнань:913
+288:Шэньси:29:Shangluo:914
+289:Шэньси:29:Ankang:915
+290:Шэньси:29:Ханьчжун:916
+291:Шэньси:29:Баоцзи:917
+292:Шэньси:29:Tongchuan:919
+293:Ганьсу:931:Ланьчжоу:931
+294:Ганьсу:931:Линься:930
+295:Ганьсу:931:Dingxi:932
+296:Ганьсу:931:Pingliang:933
+297:Ганьсу:931:Qingyang:934
+298:Ганьсу:931:Jinchang Уюйский:935
+299:Ганьсу:931:Чжанъе:936
+300:Ганьсу:931:Цзюцюань, Цзяюйгуань:937
+301:Ганьсу:931:Тяньшуй:938
+302:Ганьсу:931:Longnan:939
+303:Ганьсу:931:Gannan:941
+304:Ганьсу:931:Серебро:943
+305:Цинхай:971:Синин:971
+306:Цинхай:971:Haibei:970
+307:Цинхай:971:Хайдун:972
+308:Цинхай:971:huangnan:973
+309:Цинхай:971:Хайнань Штат:974
+310:Цинхай:971:Голок:975
+311:Цинхай:971:Yushu:976
+312:Цинхай:971:Haixi:979
+313:Цинхай:971:Голмуд:979
+314:Нинся:951:Иньчуань:951
+315:Нинся:951:Shizuishan:952
+316:Нинся:951:Wuzhong:953
+317:Нинся:951:Гуюань:954
+318:Нинся:951:защитник:955
+319:Синьцзян:991:Урумчи:991
+320:Синьцзян:991:Таченг:901
+321:Синьцзян:991:Хами:902
+322:Синьцзян:991:Вада:903
+323:Синьцзян:991:Алтайский:906
+324:Синьцзян:991:г Состояние:908
+325:Синьцзян:991:Atush:908
+326:Синьцзян:991:Боле:909
+327:Синьцзян:991:Карамай:990
+328:Синьцзян:991:Куйтунь:992
+329:Синьцзян:991:Shihezi:993
+330:Синьцзян:991:Changji:994
+331:Синьцзян:991:Турфан:995
+332:Синьцзян:991:Корла, Бавария:996
+333:Синьцзян:991:Аксу:997
+334:Синьцзян:991:Каши:998
+335:Синьцзян:991:Или:999
+
+[section correction code] 
+1:Пекин:10:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+2:Пекин:10:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:211
+3:Пекин:10:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+4:Пекин:10:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:CXGLL
+5:Пекин:10:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:CXGLL
+6:Пекин:10:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:CXGLL
+7:Шанхай:21:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+8:Шанхай:21:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:SWLL
+9:Шанхай:21:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:CXLL
+10:Шанхай:21:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:6666
+11:Шанхай:21:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:6666
+12:Шанхай:21:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:6666
+13:Тяньцзинь:22:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+14:Тяньцзинь:22:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:1071
+15:Тяньцзинь:22:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:2082
+16:Тяньцзинь:22:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:1051
+17:Тяньцзинь:22:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:1051
+18:Тяньцзинь:22:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:1051
+19:Чунцин:23:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+20:Чунцин:23:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:797
+21:Чунцин:23:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:797
+22:Чунцин:23:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:101
+23:Чунцин:23:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:101
+24:Чунцин:23:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:101
+25:Хэбэй:311:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+26:Хэбэй:311:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXLL
+27:Хэбэй:311:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:CXLL
+28:Хэбэй:311:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:5011
+29:Хэбэй:311:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:5011
+30:Хэбэй:311:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:5011
+31:Шаньси:351:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+32:Шаньси:351:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:1071
+33:Шаньси:351:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+34:Шаньси:351:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:107
+35:Шаньси:351:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:107
+36:Шаньси:351:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:107
+37:Внутренняя Монголия:471:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+38:Внутренняя Монголия:471:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:519
+39:Внутренняя Монголия:471:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:2082
+40:Внутренняя Монголия:471:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:CXGPRS
+41:Внутренняя Монголия:471:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:CXGPRS
+42:Внутренняя Монголия:471:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:CXGPRS
+43:Ляонин:24:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+44:Ляонин:24:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CX2GLL
+45:Ляонин:24:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:CXLL
+46:Ляонин:24:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:119
+47:Ляонин:24:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:119
+48:Ляонин:24:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:119
+49:Цзилинь:431:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+50:Цзилинь:431:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:7011
+51:Цзилинь:431:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+52:Цзилинь:431:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:1173
+53:Цзилинь:431:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:1173
+54:Цзилинь:431:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:1173
+55:Хэйлунцзян:451:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+56:Хэйлунцзян:451:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:1071
+57:Хэйлунцзян:451:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+58:Хэйлунцзян:451:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:CXLL
+59:Хэйлунцзян:451:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:CXLL
+60:Хэйлунцзян:451:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:CXLL
+61:Цзянсу:25:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+62:Цзянсу:25:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:705
+63:Цзянсу:25:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:CXLL
+64:Цзянсу:25:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:192
+65:Цзянсу:25:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:192
+66:Цзянсу:25:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:192
+67:Чжэцзян:571:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:193
+68:Чжэцзян:571:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXLL
+69:Чжэцзян:571:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+70:Чжэцзян:571:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:1561
+71:Чжэцзян:571:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:1561
+72:Чжэцзян:571:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:1561
+73:Аньхой:551:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+74:Аньхой:551:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10655898:LL
+75:Аньхой:551:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+76:Аньхой:551:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:703
+77:Аньхой:551:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:803
+78:Аньхой:551:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:803
+79:Фуцзянь:591:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+80:Фуцзянь:591:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXLL
+81:Фуцзянь:591:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+82:Фуцзянь:591:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:18
+83:Фуцзянь:591:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:18
+84:Фуцзянь:591:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:18
+85:Цзянси:791:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:3535
+86:Цзянси:791:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:1071
+87:Цзянси:791:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+88:Цзянси:791:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:102
+89:Цзянси:791:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:102
+90:Цзянси:791:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:102
+91:Шаньдун:531:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+92:Шаньдун:531:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:412
+93:Шаньдун:531:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:412
+94:Шаньдун:531:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:3
+95:Шаньдун:531:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:3
+96:Шаньдун:531:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:3
+97:Хэнань:371:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:BYXXCX
+98:Хэнань:371:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXLL
+99:Хэнань:371:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:CXLL
+100:Хэнань:371:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:603
+101:Хэнань:371:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:603
+102:Хэнань:371:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:603
+103:Хубэй:27:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:1081
+104:Хубэй:27:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXLL
+105:Хубэй:27:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:2082
+106:Хубэй:27:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:CXSJLL
+107:Хубэй:27:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:CXSJLL
+108:Хубэй:27:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:CXSJLL
+109:Хунань:731:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+110:Хунань:731:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:1071
+111:Хунань:731:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:2082
+112:Хунань:731:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:11803
+113:Хунань:731:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:11803
+114:Хунань:731:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:11803
+115:Гуандун:20:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+116:Гуандун:20:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXGPRSLL
+117:Гуандун:20:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:CXLL
+118:Гуандун:20:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:CXGPRSTC
+119:Гуандун:20:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:CXGPRSTC
+120:Гуандун:20:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:CXGPRSTC
+121:Гуанси:771:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+122:Гуансиский:771:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:SSLL
+123:Гуансиский:771:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:CXLL
+124:Гуансиский:771:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:103
+125:Гуансиский:771:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:103
+126:Гуанси:771:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:103
+127:Хайнань:898:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+128:Хайнань:898:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXLL
+129:Хайнань:898:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:CXLL
+130:Хайнань:898:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:106
+131:Хайнань:898:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:106
+132:Хайнань:898:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:106
+133:Сычуань:28:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+134:Сычуань:28:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:1071
+135:Сычуань:28:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:704
+136:Сычуань:28:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:HF
+137:Сычуань:28:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:HF
+138:Сычуань:28:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:HF
+139:Гуйчжоу:851:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+140:Гуйчжоу:851:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXLL
+141:Гуйчжоу:851:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:CXLL
+142:Гуйчжоу:851:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:7013
+143:Гуйчжоу:851:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:7013
+144:Гуйчжоу:851:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:7013
+145:Тибет:891:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+146:Тибет:891:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:1071
+147:Тибет:891:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+148:Тибет:891:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:CXTCSY
+149:Тибет:891:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:CXTCSY
+150:Тибет:891:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:CXTCSY
+151:Юньнань:871:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:199
+152:Юньнань:871:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:1071
+153:Юньнань:871:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+154:Юньнань:871:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:CXGPRS
+155:Юньнань:871:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:CXGPRS
+156:Юньнань:871:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:CXGPRS
+157:Shaanxi:29:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+158:Shaanxi:29:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:1071
+159:Shaanxi:29:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+160:Shaanxi:29:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:3053
+161:Shaanxi:29:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:3053
+162:Shaanxi:29:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:3053
+163:Ганьсу:931:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+164:Ганьсу:931:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXLL
+165:Ганьсу:931:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+166:Ганьсу:931:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:TCCX
+167:Ганьсу:931:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:TCCX
+168:Ганьсу:931:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:TCCX
+169:Цинхай:971:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+170:Цинхай:971:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXLL
+171:Цинхай:971:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:CXLL
+172:Цинхай:971:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:30617
+173:Цинхай:971:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:30617
+174:Цинхай:971:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:30617
+175:Нинся:951:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+176:Нинся:951:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:1071
+177:Нинся:951:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:1071
+178:Нинся:951:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:17 * Месяц #
+179:Нинся:951:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:17 * Месяц #
+180:Нинся:951:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:17 * Месяц #
+181:Синьцзян:991:ALL:ALL:China Telecom:TELECOM:China Telecom:60000:10001:108
+182:Синьцзян:991:ALL:ALL:China Unicom:UNICOM:Unicom 2G:50000:10010:CXLL
+183:Синьцзян:991:ALL:ALL:China Unicom:UNICOM:China Unicom 3G:70000:10010:2082
+184:Синьцзян:991:ALL:ALL:China Mobile:CMCC:Shenzhouxing:30000:10086:108
+185:Синьцзян:991:ALL:ALL:China Mobile:CMCC:M-Zone:20000:10086:108
+186:Синьцзян:991:ALL:ALL:China Mobile:CMCC:GSM:10000:10086:108
+
+[section traffic white list] 
+L:com.snda.inote.lenovo
+L:com.lenovo.leos.appstore
+L:com.lenovo.lps.simple
+L:com.lenovo.gameworldphone
+L:com.lenovo.magicplus
+L:com.lenovo.browser
+L:com.lenovo.leos.appstore.pad
+L:com.lenovo.themecenter
+L:com.lenovo.music
+L:com.lenovo.ota
+L:com.lenovo.email
+L:com.lenovo.ideafriend
+L:com.lenovo.padnote
+L:com.lenovo.supernote
+L:com.lenovo.lsf.pay.phone
+L:com.lenovo.leos.hd.lenovoservicesetting
+L:com.lenovo.leos.lenovoservicesetting
+L:com.lenovo.anyshare
+L:com.lenovo.anyshare.gps
+L:com.lenovo.anyshare.cs
+L:com.lenovo.anyshare.sc
+L:com.lenovo.leos.cloud.sync
+L:com.lenovo.lps.cloud.sync
+L:com.lenovo.leos.cloud.sync
+L:com.lenovo.leos.cloud.sync.row
+L:com.lenovo.lps.cloud.sync
+L:com.lenovo.lps.cloud.sync.row
+T:com.android.mms
+T:com.lenovo.ideafriend 
+T:com.lenovo.safecenter
+H:com.lenovo.lsf.device
+H:com.lenovo.lsf
+H:com.lenovo.lsf.pay.phone 
+H:com.lenovo.ue.service
+H:com.android.SDAC

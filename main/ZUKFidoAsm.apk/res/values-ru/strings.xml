@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Привет мир!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="my_app_name">ZUK FIDO UAF1.0 ASM</string>
+    <string name="my_description">"You can set up ZUK Z2 FIDO UAF1.0 AUTHENTICATOR on your Android device to sign in the APP. It's secure and more convenient than signing in with your username and password."</string>
+    <string name="my_title_ecdsa">ZUK Z2 FIDO UAF1.0 AUTHENTICATOR (ECDSA)</string>
+    <string name="my_title_sm2">ZUK Z2 FIDO UAF1.0 AUTHENTICATOR (SM2)</string>
+    <string name="touch_finger_hint">Пожалуйста, дотроньтесь пальцем сканера отпечатков</string>
+    <string name="transaction_confirmation">Подтверждение сделки</string>
+    <string name="cancel">Отмена</string>
+    <string name="unknown_error">Неизвестная ошибка!</string>
+    <string name="fingerprint_matched">Соответствие!</string>
+    <string name="fingerprint_mismatched">Несоответствие! Пожалуйста, попробуйте снова.</string>
+    <string name="timeout">Время истекло</string>
+    <string name="toomanyattempts">"Вы пытались слишком много раз!
+Пожалуйста, повторите попытку позже."</string>
+    <string name="finger_image">Изображение пальца</string>
+    <string name="manage_ok">Перейти в настройки</string>
+    <string name="manage_hint">"Нет зарегестрированных отпечатков пальцев!
+Пожалуйста, перейдите в Настройки, чтобы зарегистрировать отпечаток вашего пальца и вернитесь к регистрации."</string>
+    <string name="select_user_title">Выбрать пользователя</string>
+    <string name="click_to_authorize">Авторизироваться</string>
+    <string name="app_name">asmsdk</string>
+</resources>

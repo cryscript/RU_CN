@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мастер настройки</string>
+    <string name="title_complete">Добро пожаловать</string>
+    <string name="xui_show_tv">Я принимаю %1$s и %2$s</string>
+    <string name="user_agreement">Пользовательское соглашение</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="quick_settings">Быстрые настройки</string>
+    <string name="skip_setupwizard">Использовать ZUK!</string>
+    <string name="skip_btn">Пропустить</string>
+    <string name="continue_btn">Далее</string>
+    <string name="title_mobiledata">Мобильный интернет</string>
+    <string name="title_fingerprinter">Отпечаток пальца</string>
+    <string name="fingerprint_explain">Использование отпечатков пальцев вместо пароля, чтобы разблокировать</string>
+    <string name="add_fingerprint">Добавить отпечаток</string>
+    <string name="setupwizard_finish">Вы готовы к ZUK</string>
+    <string name="start_to_use">Использовать ZUK!</string>
+    <string name="fingerprint_already_added">Вы добавили отпечаток</string>
+    <string name="next_step">Далее</string>
+</resources>

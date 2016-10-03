@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="perms_category">
+        <item>Связанные с оплатой</item>
+        <item>Связанные с конфиденциальностью</item>
+        <item>Связанные с мультимедиа</item>
+        <item>Связанные с настройками</item>
+    </string-array>
+    <string-array name="perms_mode">
+        <item>Принять</item>
+        <item>Отказать</item>
+        <item>Запрос</item>
+        <item>Неизвестный</item>
+    </string-array>
+    <string-array name="choose_mode_three_state">
+        <item>Принять</item>
+        <item>Запрос</item>
+        <item>Отказать</item>
+    </string-array>
+    <string-array name="choose_mode_two_state">
+        <item>Принять</item>
+        <item>Отказать</item>
+    </string-array>
+    <string-array name="op_to_perms_name">
+        <item>Определение местоположения</item>
+        <item>Определение местоположения</item>
+        <item>Определение местоположения</item>
+        <item>Вибрация</item>
+        <item>Доступ к контактам</item>
+        <item>Доступ к контактам</item>
+        <item>Доступ к списку звонков</item>
+        <item>Доступ к списку звонков</item>
+        <item>Доступ к календарю</item>
+        <item>Доступ к календарю</item>
+        <item>Определение местоположения</item>
+        <item>Отправление уведомлений</item>
+        <item>Определение местоположения</item>
+        <item>Осуществление звонков</item>
+        <item>Доступ к SMS</item>
+        <item>Доступ к SMS</item>
+        <item>Получение SMS</item>
+        <item>Получение SMS</item>
+        <item>Получение MMS</item>
+        <item>Получение SMS</item>
+        <item>Отправка SMS</item>
+        <item>Доступ к SMS</item>
+        <item>Доступ к SMS</item>
+        <item>Изменение системных настроек</item>
+        <item>Всплывающие окна</item>
+        <item>Доступ к уведомлениям</item>
+        <item>Включение камеры</item>
+        <item>Включение диктофона</item>
+        <item>Воспроизведение аудио</item>
+        <item>Чтение буфера обмена</item>
+        <item>Изменение буфера обмена</item>
+        <item>Кнопки мультимедиа</item>
+        <item>Аудио фокус</item>
+        <item>Мастер громкость</item>
+        <item>Громкость голоса</item>
+        <item>Громкость звонка</item>
+        <item>Громкость медиа</item>
+        <item>Громкость будильника</item>
+        <item>Громкость уведомлений</item>
+        <item>Громкость Bluetooth</item>
+        <item>Поддержание включенного состояния</item>
+        <item>Определение местоположения</item>
+        <item>Определение местоположения</item>
+        <item>Получение статистики использования</item>
+        <item>Отк./вкл. микрофона</item>
+        <item>Всплывающие окна</item>
+        <item>Медиафайлы проекта</item>
+        <item>Активирование VPN</item>
+        <item>Включение Wi-Fi</item>
+        <item>Включение Bluetooth</item>
+        <item>Отправка MMS</item>
+        <item>Доступ к MMS</item>
+        <item>Доступ к MMS</item>
+        <item>Автозапуск приложений</item>
+        <item>Изменение NFС</item>
+        <item>Доступ к SMS</item>
+        <item>Доступ к MMS</item>
+        <item>Доступ к контактам</item>
+        <item>Доступ к журналу вызовов</item>
+        <item>Включение мобильной сети</item>
+        <item>Получение сведений об устройстве</item>
+        <item>Создание ярлыков на рабочем столе</item>
+        <item>Связанные с доступом</item>
+        <item>Чтение номера телефона</item>
+        <item>Изменение Обоев</item>
+        <item>Ассистент структуры</item>
+        <item>Делает скриншоты</item>
+        <item>Чтение состояния телефона</item>
+        <item>Добавление голосовой почты</item>
+        <item>Использование Sip</item>
+        <item>Исходящие звонки</item>
+        <item>Использование отпечатка</item>
+        <item>Использование датчиков</item>
+        <item>Чтение сотовых сетей</item>
+        <item>Макет местоположения</item>
+        <item>Чтение внешнего накопителя</item>
+        <item>Запись на внешний накопитель</item>
+        <item>Включение экрана</item>
+        <item>Данные учетной записи доступа</item>
+    </string-array>
+    <string-array name="cleanmgr_fm_cleansetting_autoclean_array">
+        <item>Когда более 20MB</item>
+        <item>Когда более 50MB</item>
+        <item>Когда более 100MB</item>
+        <item>Отключить Автоочистку</item>
+    </string-array>
+    <string-array name="cleanmgr_fm_deepclean_tab_array">
+        <item>Кэш</item>
+        <item>Большие файлы</item>
+        <item>Неиспол. приложения</item>
+        <item>Фото</item>
+        <item>Аудио</item>
+        <item>Видео</item>
+    </string-array>
+    <string-array name="cleanmgr_fm_deepclean_openfile_array">
+        <item>Текст</item>
+        <item>Аудио</item>
+        <item>Видео</item>
+        <item>Фото</item>
+    </string-array>
+    <string-array name="cleanmgr_fm_deepclean_compositor_array">
+        <item>Сортировка по имени</item>
+        <item>Сортировка по размеру</item>
+        <item>Сортировка по времени загрузки</item>
+    </string-array>
+</resources>

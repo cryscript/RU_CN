@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="push_app_name">Управ. устройствами</string>
+    <string name="download_falied">Не удалось выполнить загрузку, нажмите, чтобы повторить попытку.</string>
+    <string name="warring_network_mobile">Не подключен Wi-Fi, хотите загрузить через мобильную сеть?</string>
+    <string name="warring_no_network">Сеть, не доступна, пожалуйста, подключитесь к сети Wi-Fi.</string>
+    <string name="text_start_task">Начать загрузку</string>
+    <string name="text_set_wifi">Подключиться к Wi-Fi</string>
+    <string name="text_set_later">Возможно, позже</string>
+    <string name="dialog_button_download">Скачать</string>
+    <string name="dialog_button_cancel">Отменить</string>
+    <string name="install_success">Установленно</string>
+    <string name="install_success_start">.Нажмите, чтобы начать.</string>
+    <string name="download_in_queue">Задача загрузки добавлена</string>
+    <string name="download_in_queue_zero">Загрузка запущенно без мобильного интернета</string>
+    <string name="download_in_wifi_only">Загружать только в Wi-Fi</string>
+    <string name="download_in_wifi_mobile">Загружать во всех сетях</string>
+    <string name="progress_wait_retry">Ждите, для повторной попытки</string>
+    <string name="progress_wait_network">Ожидание сети</string>
+    <string name="progress_downloading">Загрузка</string>
+    <string name="progress_downloaded">Загружено</string>
+    <string name="progress_task_not_exist">Задача не существует</string>
+    <string name="ad_skip">пропустить</string>
+</resources>

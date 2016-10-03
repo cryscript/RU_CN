@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xdivert_title">X-Divert</string>
+    <string name="xdivert_summary">Переадресация вызова, если абонент недоступен</string>
+    <string name="phone_numbers">Введите телефонные номера</string>
+    <string name="sub1LineNumber">Номер подписки 1:</string>
+    <string name="sub2LineNumber">Номер подписки 2:</string>
+    <string name="proceed">Продолжить</string>
+    <string name="xdivert_button">Настройки X-Divert</string>
+    <string name="xdivert_setting">Настройки X-Divert</string>
+    <string name="sum_xdivert_enabled">X-Divert Включен</string>
+    <string name="sum_xdivert_disabled">X-Divert Выключен</string>
+    <string name="xdivert_not_supported">X-Divert не поддерживается для CDMA</string>
+    <string name="xdivert_enternumber_error">Введите номер телефона для обеих подписок</string>
+    <string name="xdivert_partial_set">XDivert был установлен только для 1-ой подписки</string>
+    <string name="xdivert_sub_absent">Обе подписки должны быть активированы для обработки X-Divert</string>
+    <string name="xdivert_status">Статус X-Divert</string>
+    <string name="xdivert_active">Активен</string>
+    <string name="xdivert_not_active">Не активен</string>
+    <string name="xdivert_imsi_not_read">Происходит инициализация SIM-карты. Пожалуйста, попробуйте через некоторое время.</string>
+    <string name="updating_title">Настройки вызова</string>
+    <string name="reading_settings">Чтение настроек…</string>
+    <string name="updating_settings">Обновление настроек…</string>
+    <string name="reverting_settings">Восстановление настроек…</string>
+    <string name="response_error">Неожиданный ответ от сети.</string>
+    <string name="exception_error">Ошибка сети или SIM-карты.</string>
+    <string name="fdn_check_failure">"В вашем приложении для звонков включена настройка фиксированного набора номера. В результате, некоторые функции обработки вызовов с не работают."</string>
+    <string name="radio_off_error">Включите радио перед просмотром этих параметров.</string>
+    <string name="close_dialog">ДА</string>
+    <string name="error_updating_title">Ошибка настройки вызовов</string>
+    <string name="set_subscription_error_atleast_one">Выберите хотя бы одну подписку</string>
+    <string name="sub_1">SUB 1</string>
+    <string name="sub_2">SUB 2</string>
+    <string name="sub_3">SUB 3</string>
+</resources>

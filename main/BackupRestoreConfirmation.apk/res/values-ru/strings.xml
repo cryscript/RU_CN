@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="backup_confirm_title">Полная резервная копия</string>
+	<string name="restore_confirm_title">Полное восстанавление</string>
+    <string name="backup_confirm_text">"Поступил запрос на полную резервную копию всех данных на подключенный компьютер. Вы хотите сделать резервную копию?
+
+Не позволяйте операции продолжаться если Вы не делали запрос на создание резервной копии."</string>
+	<string name="allow_backup_button_label">Сделать резервную копию данных</string>
+	<string name="deny_backup_button_label">Не делать резервную копию</string>
+    <string name="restore_confirm_text">"Поступил запрос на полное восстановление всех данных из подключенного компьютера. Вы хотите восстанавливать данные?
+
+Не позволяйте операции продолжаться если Вы не делали запрос на восстанавление. Это заменит все данные на устройстве!"</string>
+	<string name="allow_restore_button_label">Восстановить данные</string>
+	<string name="deny_restore_button_label">Не восстанавливать</string>
+	<string name="current_password_text">Пожалуйста, введите свой текущий резервный пароль ниже:</string>
+	<string name="device_encryption_restore_text">Пожалуйста, введите свой пароль шифрования устройства ниже.</string>
+	<string name="device_encryption_backup_text">Пожалуйста, введите свой пароль шифрования устройства ниже. Он будет использоваться, чтобы зашифровать резервную копию.</string>
+	<string name="backup_enc_password_text">Пожалуйста, введите пароль, чтобы зашифровать резервную копию. Если пароль будет пустым, будет использован Ваш текущий резервный пароль:</string>
+	<string name="backup_enc_password_optional">Если Вы хотите зашифровать резервную копию, введите пароль ниже:</string>
+	<string name="backup_enc_password_required">Так как Ваше устройство зашифровано, Вы обязаны шифровать свою резервную копию. Пожалуйста, введите пароль ниже:</string>
+	<string name="restore_enc_password_text">Если резервная копия зашифрована, пожалуйста, введите пароль ниже:</string>
+	<string name="toast_backup_started">Резервное копирование выполняется...</string>
+	<string name="toast_backup_ended">Резервное копирование выполнено</string>
+	<string name="toast_restore_started">Выполняется восстанавление...</string>
+	<string name="toast_restore_ended">Восстановление выполнено</string>
+	<string name="toast_timeout">Время операции истекло</string>
+</resources>

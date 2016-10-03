@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_list">
+        <item>Текущая информация ПО</item>
+        <item>Обновление ПО</item>
+        <item>Установить обновление сейчас</item>
+    </string-array>
+    <string-array name="debug_list">
+        <item>Режим отладки</item>
+        <item>Clean selfregiste flag</item>
+        <item>Send selfregiste msg</item>
+        <item>Сменить сервер</item>
+        <item>Производитель</item>
+        <item>Модель</item>
+        <item>Версия ПО</item>
+        <item>IMEI</item>
+        <item>APN</item>
+        <item>Адрес сервера</item>
+        <item>Адрес SMS-шлюза</item>
+        <item>Порт SMS шлюза</item>
+        <item>Переключатель Отчет о доставке SMS</item>
+        <item>Запустить сервис</item>
+        <item>Dm state</item>
+        <item>Self register switch</item>
+        <item>send message count</item>
+    </string-array>
+</resources>

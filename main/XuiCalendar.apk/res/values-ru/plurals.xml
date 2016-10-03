@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="endByCount">
+        <item quantity="other">；Повторить%dраз</item>
+        <item quantity="one">；Один раз</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">Каждый%dДень</item>
+        <item quantity="one">Каждый день</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">Каждую%1$dНеделю%2$s</item>
+        <item quantity="one">Еженедельно%2$s</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d Мероприятий</item>
+        <item quantity="one">1 Мероприятие</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%dМероприятий</item>
+        <item quantity="one">" 1 Мероприятие"</item>
+    </plurals>
+</resources>

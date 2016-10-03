@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<config>
+    <!-- 用于定义热区的按一定顺序但不固定位置的应用/快捷/文件夹 -->
+    <hot>
+        <shortcut title="找图标">
+            <item title="找图标" intent="#Intent;action=android.intent.action.MAIN;component=com.zui.launcher/com.zui.launcher.customizer.SearchShortCut;end" 
+                icon_package="com.zui.launcher" icon_resource="com.zui.launcher:drawable/ic_le_searchapp"/>
+        </shortcut>
+        <shortcut title="X桌面设置">
+            <item title="X桌面设置" intent="#Intent;action=android.intent.action.MAIN;component=com.zui.launcher/com.zui.launcher.customizer.MenuDesktopSettingsShortCut;end" 
+                icon_package="com.zui.launcher" icon_resource="com.zui.launcher:drawable/ic_le_menudesktop"/>
+        </shortcut>         
+        <app title="相机">            
+            <item title="超级相机" component="com.lenovo.scg/com.android.camera.CameraLauncher" key="CAMERA"/>
+            <item title="相机" component="com.lenovo.scgmtk/com.android.camera.CameraLauncher"/>
+        </app>
+        <app title="图库">
+            <item title="超级相册" component="com.lenovo.scg/.app.Gallery" key="GALLERY"/>
+            <item title="相册" component="com.lenovo.scgmtk/com.android.gallery3d.app.Gallery"/>
+        </app>
+        <app title="乐商店">
+            <item title="乐商店" component="com.lenovo.leos.appstore/.ui.Loft" key="APPSTORE"/>
+        </app>
+        <app title="QQ">
+            <item title="QQ" component="com.tencent.mobileqq/.activity.SplashActivity"/>
+        </app>
+        <app title="微信">
+            <item title="微信" component="com.tencent.mm/.ui.LauncherUI"/>
+        </app>
+        <app title="日历">
+            <item title="日历" component="com.lenovo.calendar/.AllInOneActivity" be_active="true" key="CALENDAR"/>
+            <item title="日历" component="com.lenovo.calendar/.SplashActivity"/>            
+            <item title="乐日历" component="com.lenovo.app.Calendar/.MonthActivityNew"/>
+        </app>
+        <app title="时钟">
+            <item title="时钟" component="com.lenovo.deskclock/com.lenovo.clock.Clock" be_active="true" key="CLOCK"/>
+            <item title="时钟" component="com.lenovomobile.deskclock/.Clock"/>
+            <item title="时钟" component="com.htc.android.worldclock/.Clock"/>
+        </app>
+        <app title="系统设置">
+            <item title="系统设置" component="com.android.settings/.Settings" key="SETTINGS"/>
+        </app>
+        <app title="天气">
+            <item title="预装天气" component="com.lenovo.android.lenovosinaweather/.Weather" key="WEATHER"/>
+            <item title="天气通" component="sina.mobile.tianqitong/com.sina.tianqitong.ui.main.Splash"/>
+            <item title="墨迹天气" component="com.moji.mjweather/.CSplashScreen"/>
+        </app>
+        <app title="微博">
+            <item title="微博" component="com.sina.weibo/.SplashActivity"/>
+            <item title="腾讯微博" component="com.tencent.WBlog/.activity.WBlogFirstRun"/>
+        </app>
+        <app title="视频">
+            <item title="优酷" component="com.youku.phone/.ActivityWelcome"/>
+            <item title="优酷" component="com.youku.phone/.WelcomeActivity"/>
+            <item title="爱奇艺" component="com.qiyi.video/.WelcomeActivity"/>
+            <item title="搜狐视频" component="com.sohu.sohuvideo/.FirstNavigationActivityGroup"/>
+            <item title="快播" component="com.qvod.player/.PlayerAdapterActivity"/>
+            <item title="PPS" component="tv.pps.mobile/.WelcomeActivity"/>
+        </app>
+        <app title="音乐">
+            <item title="百度音乐" component="com.ting.mp3.oemc.android/.SplashActivity"/>
+            <item title="多米音乐" component="com.duomi.android/.DMLauncher"/>
+            <item title="多米音乐" component="com.duomi.android/.DMMainActivity"/>
+        </app>
+        <app title="导航">
+            <item title="高德导航" component="com.autonavi.xmgd.navigator/.Start"/>
+            <item title="高德导航" component="com.autonavi.xmgd.navigator.phone.lenovo.seine/.Start"/>
+            <item title="百度地图" component="com.baidu.BaiduMap/.BaiduMap"/>
+        </app> -->
+        <app title="安全">
+            <item title="乐安全" component="com.lenovo.safecenter/.MainTab.SplashActivity" key="SAFE"/>
+            <item title="乐安全" component="com.lenovo.safebox/.MainTab.SplashActivity"/>
+            <item title="乐安全" component="com.lenovo.safecenterpad/.MainTab.SplashActivity"/>
+            <item title="乐安全" component="com.lenovo.safecenter.plugin/.MainTab.SplashActivity"/>
+            <item title="360卫士" component="com.qihoo360.mobilesafe/.ui.index.AppEnterActivity"/>
+            <item title="腾讯手机管家" component="com.tencent.qqpimsecure/com.tencent.server.fore.QuickLoadActivity"/>
+        </app>
+    </hot>
+    
+    <!-- 用于定义DOCK区 -->
+    <dock>
+        <app title="拨号">
+            <item title="拨号" intent="#Intent;action=android.intent.action.DIAL;launchFlags=0x10000000;end" 
+                icon_package="com.zui.launcher" icon_resource="com.zui.launcher:drawable/com_android_contacts__ic_launcher_phone"/>
+        </app>
+        <app title="联系人">
+            <item title="联系人" intent="content://com.android.contacts/contacts#Intent;action=android.intent.action.VIEW;launchFlags=0x10000000;end" 
+                icon_package="com.zui.launcher" icon_resource="com.zui.launcher:drawable/com_android_contacts__ic_launcher_contacts"/>
+        </app>
+        <app title="信息">
+            <item title="信息" intent="#Intent;action=android.intent.action.MAIN;type=vnd.android-dir/mms-sms;launchFlags=0x10000000;end" 
+                icon_package="com.zui.launcher" icon_resource="com.zui.launcher:drawable/com_android_mms__ic_launcher_smsmms"/>
+        </app>        
+        <app title="浏览器">
+            <item title="浏览器" intent="http://m.idea123.cn/?c=02#Intent;action=android.intent.action.VIEW;S.com.android.browser.application_id=-2036735900831708960;end" 
+                icon_package="com.zui.launcher" icon_resource="com.zui.launcher:drawable/com_android_browser__ic_launcher_browser"/>
+        </app>
+	</dock>
+	
+    <!-- 用于定制桌面区域，[screen, cell_x, cell_y]是起点，[end_screen, end_cell_x, end_cell_y]是终点，不写默认为下一个块的起点； 起点到终点是个前闭后开区间； -->
+	<workspace screen="0" cell_x="0" cell_y="0">
+	    <!-- 用于定义窗口小部件区域 -->	    
+	    <widget_group title="天气" must_show="true">
+	        <leos_widget title="时间" provider="com.zui.launcher/com.xui.laweather.activity.TimeWidgetView" span_x="2" span_y="2"/>
+	        <!--zhangqb3 add 20150417  begin-->
+	        <leos_widget title="时间天气(4X2)" provider="com.zui.launcher/com.xui.timelaweather.activity.TimeWeatherWidgetView" span_x="4" span_y="2"/>
+	        <!--zhangqb3 add 20150417  end-->
+	        <!-- <leos_widget title="时间天气(4x2)" provider="com.zui.launcher/com.xui.laweather.activity.WeatherWidgetDefaultView" span_x="4" span_y="2"/> -->
+	        <widget title="联想天气(4x2)" provider="com.lenovo.lewea/com.lenovo.lewea.widget.WeatherWidget" span_x="4" span_y="2" icon="weather.png"/>
+	        <widget title="天气通4x2" provider="sina.mobile.tianqitong/sina.mobile.tianqitong.appwidget.WidgetProvider" span_x="4" span_y="2"/>
+	        <widget title="4x2墨迹天气" provider="com.moji.mjweather/com.moji.mjweather.CMojiWidget4x2" span_x="4" span_y="2"/>
+        </widget_group>
+	</workspace>
+	
+	<workspace screen="0" cell_x="0" cell_y="3">	       
+	    <!-- 用于定义热区应用的引用，默认为该块格数个 -->
+	    <hotspot title="热区应用1"/>
+	    <other/>
+	</workspace>
+	
+	<workspace screen="1" cell_x="0" cell_y="0" end_screen="2" end_cell_x="3" end_cell_y="0">
+	    <!-- 用于定义文件夹，title为文件夹名称，不能为空，folder_type只能为normal或more，默认为normal。normal可以定义文件夹的内容，more为更多应用，more只能有一个 -->
+        <folder title="小工具" folder_type="normal">
+            <!-- <labellist>
+				<label countrycode="en_US" value="Tools" />
+				<label countrycode="ar_EG" value="أدوات" />
+				<label countrycode="es_US" value="Herramientas" />
+				<label countrycode="fr_FR" value="Outils" />
+				<label countrycode="in_ID" value="Alat" />
+				<label countrycode="ms_MY" value="Alat-alat" />
+				<label countrycode="ru_RU" value="Инструменты" />
+				<label countrycode="sr_RS" value="Алат" />
+				<label countrycode="th_TH" value="เครื่องมือ" />
+				<label countrycode="uk_UA" value="Інструменти" />
+				<label countrycode="vi_VN" value="Công cụ" />
+				<label countrycode="zh_CN" value="小工具" />
+				<label countrycode="zh_HK" value="小工具" />
+				<label countrycode="zh_TW" value="小工具" />
+				<label countrycode="ro_RO" value="Unelte" />
+				<label countrycode="el_GR" value="Εργαλεία" />
+				<label countrycode="hu_HU" value="Eszközök" />
+				<label countrycode="bg_BG" value="Инструменти" />
+				<label countrycode="hr_HR" value="Alat" />
+				<label countrycode="sl_SI" value="Orodja" />
+				<label countrycode="sk_SK" value="Nástroje" />
+				<label countrycode="bn_BD" value="সরঞ্জাম" />
+				<label countrycode="ka_GE" value="ინსტრუმენტები" />
+				<label countrycode="tr_TR" value="Araçlar" />
+				<label countrycode="cs_CZ" value="Nástroje" />
+			</labellist>
+			 -->
+            <app title="计算器">
+                <item title="计算器" component="com.android.calculator2/.Calculator" key="CALCULATOR"/>
+            </app>
+            <app title="录音机">
+                <item title="录音机" component="com.android.soundrecorder/.SoundRecorder" key="SOUNDRECORDER"/>
+	            <item title="录音机" component="com.baidu.soundrecorder/.SoundRecorder"/>
+	            <item title="录音机" component="com.lenovo.soundrecorder/.SoundRecorder"/>
+	            <item title="录音机" component="com.htc.soundrecorder/.SoundRecorder"/>
+            </app>
+            <app title="音乐">
+                <item title="音乐" component="com.lenovo.music/.ui.LeAppLoadingActivity" key="MUSIC"/>
+	            <item title="音乐" component="com.android.music/.ui.LeAppLoadingActivity"/>
+	            <item title="音乐" component="com.baidu.musicplayer/.ui.LeAppLoadingActivity"/>
+            </app>
+            <app title="视频">
+                <item title="视频" component="com.lenovo.videoplayer/.VideoPlayerActivity" key="VIDEOPLAYER"/>
+	            <item title="视频" component="com.android.videoplayer/.VideoPlayerActivity"/>
+	            <item title="视频" component="com.baidu.videoplayer/.VideoPlayerActivity"/>
+	            <item title="视频" component="com.mediatek.videoplayer/.VideoPlayerActivity"/>
+            </app>
+            <app title="指南针">
+                <item title="指南针" component="com.lenovo.compass/.CompassActivity"/>
+            </app>
+            <app title="手电筒">
+                <item title="手电筒" component="com.lenovo.lenovohdllight/.LenovoHdlLight"/>
+            </app>
+        </folder>
+        
+        <folder title="系统工具" folder_type="normal">
+            <app title="备份恢复">
+                <item title="备份恢复" component="com.lenovo.BackupRestore/.BootActivity" key="BACKUP"/>
+	            <item title="备份恢复" component="com.baidu.backuprestore/.BootActivity"/>
+	            <item title="备份恢复" component="com.mediatek.backuprestore/.BootActivity"/>
+	            <item title="备份恢复" component="com.lenovo.bakrestore/.BootActivity"/>
+            </app>
+            <app title="文件管家">
+                <item title="文件管家" component="com.lenovo.FileBrowser/.FileBrowserActivity" key="FILEBROWSER"/>
+	            <item title="文件管家" component="com.lenovo.FileBrowser/.activities.FileBrowserMain"/>
+	            <item title="文件管家" component="com.lenovo.leos.filebrowser/.FileBrowserActivity"/>
+	            <item title="文件管家" component="com.mediatek.filemanager/.FileBrowserActivity"/>
+	            <item title="文件管家" component="com.baidu.resmanager/.FileBrowserActivity"/>
+	            <item title="文件管家" component="com.htc.htccnfilemanager/.FileBrowserActivity"/>
+            </app>
+            <app title="SIM卡应用">
+                <item title="SIM卡应用" component="com.mediatek.StkSelection/.StkSelection" key="STK"/>
+            </app>
+            <app title="系统升级">
+                <item title="系统升级" component="com.lenovo.ota/.ui.MainActivity" key="OTA"/> 
+            </app>
+        </folder>
+        
+       <!-- <folder title="游戏" folder_type="game"/> --> 
+        <!-- <folder title="精选应用" folder_type="recommend"/> -->
+        <!-- <app title="最佳应用" must_show="true">
+            <item title="最佳应用" component="com.lenovo.leos.appstore.storewidget/.views.MainActivity"/>
+        </app> -->
+        <hotspot title="热区应用2"/>
+        <!-- 用于定义其它自然排列的应用 -->       
+        <other/>
+    </workspace>
+    
+    <workspace screen="2" cell_x="3" cell_y="0">
+        <folder title="更多应用" folder_type="more"/>
+    </workspace>  
+</config>

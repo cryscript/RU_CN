@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city_oper_items">
+        <item>Уст. как город по умолчанию</item>
+        <item>Удалить этот город</item>
+    </string-array>
+    <string-array name="pref_slide_effect_values">
+        <item>NONE</item>
+        <item>ROTATE</item>
+        <item>BULLDOZE</item>
+        <item>WINDMILL</item>
+        <item>CUBE</item>
+        <item>WAVE</item>
+        <item>CYLINDER</item>
+    </string-array>
+    <string-array name="pref_gesture_values">
+        <item>Нет действия</item>
+        <item>Меню рабочего стола</item>
+        <item>Список запущенных приложений</item>
+        <item>Панель уведомлений</item>
+        <item>Значок поиска</item>
+        <item>Блокировка</item>
+    </string-array>
+    <string-array name="pref_title_color_values">
+        <item>тема</item>
+        <item>черная</item>
+        <item>белая</item>
+    </string-array>
+    <string-array name="pref_slide_effect_choices">
+        <item>Без анимации</item>
+        <item>Поворот</item>
+        <item>Бульдозер</item>
+        <item>Мельница</item>
+        <item>Куб</item>
+        <item>Синусоида</item>
+        <item>Цилиндр</item>
+    </string-array>
+    <string-array name="pref_gesture_choices">
+        <item>Нет действия</item>
+        <item>Меню рабочего стола</item>
+        <item>Список запущенных приложений</item>
+        <item>Панель уведомлений</item>
+        <item>Значок поиска</item>
+        <item>Блокировка</item>
+    </string-array>
+    <string-array name="pref_leftfunction_choices">
+        <item>Нет</item>
+        <item>Поиск Т9</item>
+        <item>Веб-приложения</item>
+        <item>Виджеты</item>
+    </string-array>
+    <string-array name="pref_leftfunction_choices_values">
+        <item>Нет</item>
+        <item>Поиск t9</item>
+        <item>Веб-приложения</item>
+        <item>Виджеты</item>
+    </string-array>
+</resources>

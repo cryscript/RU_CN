@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+		<item quantity="other">Удалить выбранные элементы?</item>
+		<item quantity="one">Удалить выбранный эелемент?</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+		<item quantity="other">Выбрано %1$d</item>
+		<item quantity="zero">Выбрано %1$d</item>
+		<item quantity="one">Выбран %1$d</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+		<item quantity="other">Выбрано %1$d</item>
+		<item quantity="zero">Выбрано %1$d</item>
+		<item quantity="one">Выбран %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+		<item quantity="other">Выбрано %1$d</item>
+		<item quantity="zero">Выбрано %1$d</item>
+		<item quantity="one">Выбран %1$d</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+		<item quantity="other">Предоставление доступа к альбомам, офлайн.</item>
+		<item quantity="one">Предоставление доступа к альбому, офлайн.</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+		<item quantity="other">%1$d элементов просканированно</item>
+		<item quantity="zero">%1$d элементов просканированно</item>
+		<item quantity="one">%1$d элемент просканирован</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+		<item quantity="other">Элементов %1$d выбранно</item>
+		<item quantity="zero">Элементов %1$d выбранно</item>
+		<item quantity="one">Элемент %1$d выбран</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+		<item quantity="other">%d секунд</item>
+		<item quantity="one">1 секунда</item>
+    </plurals>
+    <plurals name="number_of_photos">
+		<item quantity="other">%1$d фотографий</item>
+		<item quantity="one">%1$d фотография</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+		<item quantity="other">%1$d фотографий выбрано</item>
+		<item quantity="zero">%1$d фотографий выбрано</item>
+		<item quantity="one">%1$d фотография выбрана</item>
+    </plurals>
+</resources>

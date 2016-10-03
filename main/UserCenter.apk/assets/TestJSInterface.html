@@ -1,0 +1,1434 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>查询应用信息</title>
+    <link rel="stylesheet" media="screen and (max-width: 720px)" href="css/getAppInfo_Small.css" />
+    <link rel="stylesheet" media="screen and (min-device-width: 721px)" href="css/getAppInfo.css" />
+    <meta name="viewport" content="minimum-scale=0.6,maximum-scale=1,initial-scale=1,user-scalable=no,width=device-width" />
+</head>
+<body>
+<!--<div class="topBar">
+    <p>点击标题栏，可展开/收缩相应栏目</p>
+    <a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.');">导航</a>
+    <ul class="sideNav">
+        <li><a href="#getAppStates">查询应用状态</a></li>
+        <li><a href="">开始下载</a></li>
+        <li><a href="">开始下载(支持弹出限制流量的对话框)</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+</div>-->
+<div class="item">
+    <h2>1,查询应用状态</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm" />*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440" />*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getApp5Status');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>2-1,开始下载(Phone)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt>下载地址：</dt>
+            <dd><input type="text" name="downloadUrl" value="http://norequest/"/></dd>
+        </dl>
+        <dl>
+            <dt>应用名称：</dt>
+            <dd><input type="text" name="appName" value="微信"/>*</dd>
+        </dl>
+        <dl>
+            <dt>图标地址：</dt>
+            <dd><input type="text" name="iocnAddr" value="http://img.lenovomm.com/crawler@cluster-1/ams/fileman/img/icon/2014-03-24072343-_1395660223425_2654.png?isCompress=true&width=50&height=50&quantity=0.8"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.startDownload');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>2-2,开始下载(Pad)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt>下载地址：</dt>
+            <dd><input type="text" name="url" value="http://norequest/"/></dd>
+        </dl>
+        <dl>
+            <dt>应用名称：</dt>
+            <dd><input type="text" name="appName" value="微信"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.startDownload');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>3,开始下载:支持弹出限制流量的对话框</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt>下载地址：</dt>
+            <dd><input type="text" name="downloadUrl" value="http://norequest/"/></dd>
+        </dl>
+        <dl>
+            <dt>应用名称：</dt>
+            <dd><input type="text" name="appName" value="微信"/>*</dd>
+        </dl>
+        <dl>
+            <dt>图标地址：</dt>
+            <dd><input type="text" name="iocnAddr" value="http://img.lenovomm.com/crawler@cluster-1/ams/fileman/img/icon/2014-03-24072343-_1395660223425_2654.png?isCompress=true&width=50&height=50&quantity=0.8"/>*</dd>
+        </dl>
+        <dl>
+            <dt>文件总大小：</dt>
+            <dd><input type="text" name="totalBytes" value="1000000"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.startDownload');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>4,开始下载:支持弹出限制流量的对话框</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt>应用名称：</dt>
+            <dd><input type="text" name="appName" value="微信"/>*</dd>
+        </dl>
+        <dl>
+            <dt>图标地址：</dt>
+            <dd><input type="text" name="iocnAddr" value="http://img.lenovomm.com/crawler@cluster-1/ams/fileman/img/icon/2014-03-24072343-_1395660223425_2654.png?isCompress=true&width=50&height=50&quantity=0.8"/>*</dd>
+        </dl>
+        <dl>
+            <dt>文件总大小：</dt>
+            <dd><input type="text" name="totalBytes" value="1000000"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.startDownload');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>5,继续下载</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.continueDownload');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>6,继续下载:支持弹出限制流量的对话框</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt>文件总大小：</dt>
+            <dd><input type="text" name="totalBytes" value="1000000"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.continueDownload');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>7,安装应用</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.inst');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>8,获取当前应用是否是运行状态</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.refreshInst');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>9,卸载应用</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>只在静默卸载时执行：</dt>
+            <dd><input type="text" name="silentOnly" value="0"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.uninstall');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>10-1,打开应用</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.run');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>10-2,打开应用(Phone6.8.0.88版本以上)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.run');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>11-1,暂停下载(Phone)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt>下载地址：</dt>
+            <dd><input type="text" name="downloadUrl" value="http://norequest/"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.pauseDownload');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>11-2,暂停下载(Pad/Phone6.8.0.88以上)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.pauseDownload');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>12-1,获取下载进度(Phone)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getProgress');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>12-2,获取下载进度(Pad)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getProgress');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>13-1,弹出Toast消息通知(Phone)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>需要显示的文字：</dt>
+            <dd><input type="text" name="message" value="弹出Toast消息通知(Phone)"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.showToast');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>13-2,弹出Toast消息通知(Pad)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>需要显示的文字：</dt>
+            <dd><input type="text" name="message" value="弹出Toast消息通知(Pad)"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.toast');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>14,弹出登录窗口</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.showLogin');">弹出登录窗口</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>15-1,获取ClientId(Phone)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getClientId');">获取ClientId</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>15-2,获取ClientId(Pad)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getClientID');">获取ClientId</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>16,获取应用包名</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getPackageName');">获取应用包名</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>17,获取应用版本号</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getVersionCode');">获取应用版本号</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>18,获取应用版本名称</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getVersion');">获取应用版本名称</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>19,获取当前客户端渠道</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getChannelId');">获取当前客户端渠道</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>20,获取设备型号</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getPhoneModel');">获取设备型号</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>21-1,获取设备IMEI</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getApp5IMEI');">获取设备IMEI</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>21-2,获取设备IMSI(6.8.0.88版本以上)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getIMSI');">获取设备IMSI</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>22,创建小编订阅快捷方式</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>快捷方式图标：</dt>
+            <dd><input type="text" name="iconAddr" value="http://img.lenovomm.com/crawler@cluster-1/ams/fileman/img/icon/2014-03-24072343-_1395660223425_2654.png?isCompress=true&width=50&height=50&quantity=0.8"/>*</dd>
+        </dl>
+        <dl>
+            <dt>快捷方式名称：</dt>
+            <dd><input type="text" name="chortCutName" value="微信快捷方式"/>*</dd>
+        </dl>
+        <dl>
+            <dt>链接地址：</dt>
+            <dd><input type="text" name="targetUrl" value="app://com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.createShortCut');">创建</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>23,获取当前屏幕方向</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getOrientation');">获取当前屏幕方向</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>24,获取屏幕宽度</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getScreenWidth');">获取屏幕宽度</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>25,获取屏幕Dpi</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getDpi');">获取屏幕Dpi</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>26,JsDialog相关</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>是否存在jsDialog</dt>
+            <dd><input type="text" name="i" value="0"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.replyDialog');">JsDialog相关</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>27,进入详情</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.goDetail');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>28,调用客户端分享应用</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>分享内容：</dt>
+            <dd><input type="text" name="shareMsg" value="调用客户端分享应用"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.share');">分享</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>29,调用客户端分享应用</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>分享内容：</dt>
+            <dd><input type="text" name="shareMsg" value="调用客户端分享应用"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.share');">分享</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>30,关闭客户端小编页面</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.finish ');">关闭客户端小编页面</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>31-1,数据采集接口(traceResume)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>页面名称：</dt>
+            <dd><input type="text" name="pageName" value="XiaoBianActivity"/>*</dd>
+        </dl>
+        <dl>
+            <dt>页面内容：</dt>
+            <dd><input type="text" name="referer" value="leapp://ptn/xiaobian.do"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.traceResume');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>31-2,数据采集接口(tracePause)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>页面名称：</dt>
+            <dd><input type="text" name="pageName" value="XiaoBianActivity"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.tracePause');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>31-3,数据采集接口(traceUserAction)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>行为名称：</dt>
+            <dd><input type="text" name="actionName" value="test_user_action"/>*</dd>
+        </dl>
+        <dl>
+            <dt>页面名称：</dt>
+            <dd><input type="text" name="pageName" value="XiaoBianActivity"/>*</dd>
+        </dl>
+        <dl>
+            <dt>参数（map，JSON格式）：</dt>
+            <dd><input type="text" name="param" />*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.traceUserAction');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>31-4,数据采集接口(traceEvent)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>事件类别：</dt>
+            <dd><input type="text" name="catoryName" value="H"/>*</dd>
+        </dl>
+        <dl>
+            <dt>行为名称：</dt>
+            <dd><input type="text" name="actionName" value="test_user_action"/>*</dd>
+        </dl>
+        <dl>
+            <dt>参数(map，JSON格式)：</dt>
+            <dd><input type="text" name="param" />*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.traceEvent');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>32,本地已安装列表</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>回调方法：</dt>
+            <dd><input type="text" name="callback" value="getAppInfo.callback"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.queryInstalledApp');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>33,本地下载任务列表</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>回调方法：</dt>
+            <dd><input type="text" name="callback" value="getAppInfo.callback"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.queryDownloadInfo');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>34,应用状态更新回调机制</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名(逗号隔开多个)：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>回调方法：</dt>
+            <dd><input type="text" name="callback" value="getAppInfo.callback"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.registAppStatus');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>35,封装新的接口来分享</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>标题：</dt>
+            <dd><input type="text" name="title" value="share_title"/>*</dd>
+        </dl>
+        <dl>
+            <dt>内容：</dt>
+            <dd><input type="text" name="body" value="share_body"/>*</dd>
+        </dl>
+        <dl>
+            <dt>媒体类型：</dt>
+            <dd><input type="text" name="mimetype" value="text/plain"/>*</dd>
+        </dl>
+        <dl>
+            <dt>图片，文件流URL：</dt>
+            <dd><input type="text" name="streamUrl" /></dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.share');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>36,获取上一级referer</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getReferer');">获取上一级referer</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>37,获取网络类型</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getNetworkType');">获取网络类型</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>38,获取系统字体</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getDefaultFont');">获取系统字体</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>39,获取是否夜间模式</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>返回：</dt>
+            <dd>0普通模式，1 是夜间模式</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getBrightness');">获取是否夜间模式</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>40,获取无图模式</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>返回：</dt>
+            <dd>1普通模式，0无图模式</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getImageMode');">获取无图模式</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>41-1,启动activity(startActivity)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.android.browser"/>*</dd>
+        </dl>
+        <dl>
+            <dt>需要启动的activity：</dt>
+            <dd><input type="text" name="className" value="com.android.browser.BrowserActivity"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.startActivity');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>41-2,启动activity(startActivityByUri)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>动作名词：</dt>
+            <dd><input type="text" name="actionName" placeholder="为空则为ACTION_VIEW" value="android.intent.action.VIEW"/></dd>
+        </dl>
+        <dl>
+            <dt>dataString：</dt>
+            <dd><input type="text" name="uri" value="http://www.baidu.com"/></dd>
+        </dl>
+        <dl>
+            <dt>说明：</dt>
+            <dd>actionName 和 uri不能同时为空</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.startActivityByUri');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>42-1,发出notification(sendNotification)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>通知ID：</dt>
+            <dd><input type="text" name="notiId" value="0"/>*</dd>
+        </dl>
+        <dl>
+            <dt>标题：</dt>
+            <dd><input type="text" name="title" value="notification_title"/>*</dd>
+        </dl>
+        <dl>
+            <dt>内容：</dt>
+            <dd><input type="text" name="message" value="notification_message"/>*</dd>
+        </dl>
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.android.browser"/></dd>
+        </dl>
+        <dl>
+            <dt>需要启动的activity：</dt>
+            <dd><input type="text" name="className" value="com.android.browser.BrowserActivity"/></dd>
+        </dl>
+        <dl>
+            <dt>说明：</dt>
+            <dd>如果包名(packageName)和activity(className)二者有一个为空，则点击消失，无动作</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.sendNotification');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>42-2,发出notification(startActivity)</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>通知ID：</dt>
+            <dd><input type="text" name="notiId" value="0"/>*</dd>
+        </dl>
+        <dl>
+            <dt>标题：</dt>
+            <dd><input type="text" name="title" value="notification_title"/>*</dd>
+        </dl>
+        <dl>
+            <dt>内容：</dt>
+            <dd><input type="text" name="message" value="notification_message"/>*</dd>
+        </dl>
+        <dl>
+            <dt>动作名词：</dt>
+            <dd><input type="text" name="actionName" placeholder="为空则为ACTION_VIEW" value="android.intent.action.VIEW"/></dd>
+        </dl>
+        <dl>
+            <dt>dataString：</dt>
+            <dd><input type="text" name="uri" value="http://www.baidu.com"/></dd>
+        </dl>
+        <dl>
+            <dt>说明：</dt>
+            <dd>如果包名(packageName)和activity(className)二者有一个为空，则点击消失，无动作</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.sendNotificationByAction');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>42 获取用户名</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getUserName');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>43 获取MAC地址</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getMac');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>44   获取NetworkOperator</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getNetworkOperator');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>45  获取SimOperator</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getSimOperator');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>46  获取手机号码</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getLine1Number');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>47  获取设备ID</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getDeviceId');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>48  复制文本到系统剪切板</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>复制文本：</dt>
+            <dd><input type="text" name="text" value="Hello World"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.copyToClipboard');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>49  账号登出</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.logout');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>50  一键登录</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>回调方法：</dt>
+            <dd><input type="text" name="callback" value="getAppInfo.callback"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.oneKeyLogin');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>51  安装应用（带回调）</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt>回调方法：</dt>
+            <dd><input type="text" name="callback" value="getAppInfo.callback"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.inst');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>52  下载应用（带回调）</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt>回调方法：</dt>
+            <dd><input type="text" name="callback" value="getAppInfo.callback"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.downloadWithCallback');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>53-1  指定应用分享</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>标题：</dt>
+            <dd><input type="text" name="title" value="share_title"/>*</dd>
+        </dl>
+        <dl>
+            <dt>内容：</dt>
+            <dd><input type="text" name="body" value="share_body"/>*</dd>
+        </dl>
+        <dl>
+            <dt>媒体类型：</dt>
+            <dd><input type="text" name="mimetype" value="text/plain"/>*</dd>
+        </dl>
+        <dl>
+            <dt>图片，文件流URL：</dt>
+            <dd><input type="text" name="streamUrl" /></dd>
+        </dl>
+        <dl>
+            <dt>指定应用的名字：</dt>
+            <dd><input type="text" name="appName" value="com.sina.weibo" /></dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.share');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>53-2  指定应用分享</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>内容：</dt>
+            <dd><input type="text" name="shareMsg" value="Share Msg"/>*</dd>
+        </dl>
+        <dl>
+            <dt>指定应用的名字：</dt>
+            <dd><input type="text" name="appName" value="com.sina.weibo" /></dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.share');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>54  过滤可分享的应用</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>媒体类型：</dt>
+            <dd><input type="text" name="mimetype" value="text/plain"/>*</dd>
+        </dl>
+        <dl>
+            <dt>应用的名字构成的字符串：</dt>
+            <dd><input type="text" name="appNames" value="com.qzone|com.sina.weibo|com.tencent.mm" /></dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.filterShareableApps');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>55  下载应用(使用免流量活动ID)）</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>包名：</dt>
+            <dd><input type="text" name="packageName" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt>版本号：</dt>
+            <dd><input type="text" name="versionCode" value="440"/>*</dd>
+        </dl>
+        <dl>
+            <dt>活动id：</dt>
+            <dd><input type="text" name="activityId" value="0"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.download');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>56 getLpsUst</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>force：</dt>
+            <dd><input type="text" name="force" value="0"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getLpsUst');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>57 getLpsUst</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>realmId：</dt>
+            <dd><input type="text" name="realmId" value="appstore.lps.lenovo.com"/>*</dd>
+        </dl>
+        <dl>
+            <dt>force：</dt>
+            <dd><input type="text" name="force" value="0"/>*</dd>
+        </dl>
+        <dl>
+            <dt>callback：</dt>
+            <dd><input type="text" name="callback" value="getAppInfo.callback"/>*</dd>
+        </dl>
+        <dl>
+            <dt>autoLogin：</dt>
+            <dd><input type="text" name="autoLogin" value="0"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getLpsUst');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>测试backevent回调</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>回调方法：</dt>
+            <dd><input type="text" name="回调" value="getAppInfo.backEvent"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.registerBackEventCallBack');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>测试新浪微博登陆</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>回调方法：</dt>
+            <dd><input type="text" name="回调" value="getAppInfo.weibocallback"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getWeiboAccessToken');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>打开应用</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>packagename：</dt>
+            <dd><input type="text" name="packagename" value="com.tencent.mm"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.runApp');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>获取ip地址</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>host：</dt>
+            <dd><input type="text" name="domain_name" value="http://www.baidu.com/"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getIpAddress');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>测试event回调</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>回调方法：</dt>
+            <dd><input type="text" name="回调" value="getAppInfo.callback"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.registerOnEventCallBack');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>startActivityByIntent</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>jsondata：</dt>
+            <dd><input type="text" name="json" value=""/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.startActivityByIntent');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>showAccountPage</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.showAccountPage');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>添加定时器通知</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>id：</dt>
+            <dd><input type="text" name="id" value="0"/>*</dd>
+        </dl>
+        <dl>
+            <dt>time：</dt>
+            <dd><input type="text" name="time" value="yyyy-MM-dd HH:mm:ss"/>*</dd>
+        </dl>
+        <dl>
+            <dt>title：</dt>
+            <dd><input type="text" name="title" value="title"/>*</dd>
+        </dl>
+        <dl>
+            <dt>message：</dt>
+            <dd><input type="text" name="message" value="message"/>*</dd>
+        </dl>
+        <dl>
+            <dt>leftButton：</dt>
+            <dd><input type="text" name="leftButton" value="leftButton"/>*</dd>
+        </dl>
+        <dl>
+            <dt>rightButton：</dt>
+            <dd><input type="text" name="rightButton" value="rightButton"/>*</dd>
+        </dl>
+        <dl>
+            <dt>url：</dt>
+            <dd><input type="text" name="url" value="url"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.addTimeNotification');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>取消定时器通知</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>id：</dt>
+            <dd><input type="text" name="id" value="0"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.cancelTimeNotification');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>获取GPS设置</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getLocationSettingInfo');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>获取位置信息</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt>id：</dt>
+            <dd><input type="type" name="id" value="passive"/>*</dd>
+        </dl>
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getLocationInfo');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<div class="item">
+    <h2>获取设备信息</h2>
+    <div class="itemCon" style=" display: none">
+        <dl>
+            <dt></dt>
+            <dd><a class="btn shadow" onclick="getAppInfo.submitForm(this,'lestore.getDeviceInfo');">查询</a></dd>
+        </dl>
+        <div class="itemResult"></div>
+    </div>
+</div>
+<script type="text/javascript">
+var getAppInfo={
+    itemExpand:function(){
+        var itemNode=document.querySelectorAll(".item")
+        for(var i= 0,l=itemNode.length;i<l;i++){
+            itemNode[i].firstElementChild.addEventListener("click",function(e){
+                var itemConNode= e.target.nextElementSibling;
+                if(itemConNode.style.display=="none"){
+                    itemConNode.style.display="block";
+                    e.target.className="cur";
+                }else{
+                    itemConNode.style.display="none";
+                    e.target.className="";
+                }
+            },false)
+        }
+    },
+    showResult:function(_itemResultNode){
+        var loadingStr='<i class="loading"></i>&nbsp;正在加载中...';
+        _itemResultNode.innerHTML=loadingStr;
+        _itemResultNode.style.display="block";
+    },
+    getParam:function(_itemConNode){
+        var inputNode=_itemConNode.querySelectorAll("input"),paramStr="";
+        for(var i= 0,l=inputNode.length;i<l;i++){
+            paramStr+=',"'+ inputNode[i].value +'"';
+        }
+        paramStr=paramStr==""?'':paramStr.substring(1);
+        return paramStr;
+    },
+    submitForm:function(_obj,fn){
+        var itemConNode=_obj.parentNode.parentNode.parentNode;
+        var itemResultNode=itemConNode.lastElementChild;
+        this.showResult(itemResultNode);
+        var paramStr=this.getParam(itemConNode);
+        var r=eval(fn+'('+paramStr+')');
+        itemResultNode.innerHTML=r;
+    },
+    init:function(){
+        this.itemExpand();
+    },
+    callback:function(cbstr){
+        alert(cbstr);
+    },
+    backEvent:function(){
+        return 1;
+    },
+    weibocallback:function(cbstr){
+        alert(cbstr);
+    }
+};
+document.addEventListener('DOMContentLoaded', function(){
+    getAppInfo.init();
+},false);
+</script>
+</body>
+</html>

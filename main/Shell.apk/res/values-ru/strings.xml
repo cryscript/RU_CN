@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Оболочка</string>
+    <string name="bugreport_finished_title">Отчет об ошибке захвачен</string>
+    <string name="bugreport_finished_text">Нажмите, чтобы поделиться отчетом об ошибке</string>
+    <string name="bugreport_confirm">"Сообщения об ошибках содержат данные из различных файлов журналов системы, в том числе личной и частной информации. Делитесь отчетами об ошибках только с приложениями и людьми, которым вы доверяете."</string>
+    <string name="bugreport_confirm_repeat">Показывать это сообщение в следующий раз</string>
+    <string name="bugreport_storage_title">Сообщения об ошибках</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desc">Это аппаратно ориентированные средства и должно быть использованы только с приложением поставщика или услуги.</string>
+    <string name="label">Позволяет получать IZAT сервисы и ресурсы.</string>
+</resources>

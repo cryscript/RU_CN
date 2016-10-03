@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpapers">Живые обои</string>
+    <string name="wallpaper_walkaround">Смотреть сквозь</string>
+    <string name="wallpaper_walkaround_author">Google</string>
+    <string name="wallpaper_walkaround_desc">Смотрите через телефон и ходите без риска несчастных случаев.</string>
+    <string name="wallpaper_clock">Полярные часы</string>
+    <string name="wallpaper_clock_author">Google</string>
+    <string name="wallpaper_clock_desc">Представляет дату и время как по часовой стрелке дуги: месяц, день, час, минута, секунда.</string>
+    <string name="clock_settings">Настройки полярных часов</string>
+    <string name="show_seconds">Показывать секунды</string>
+    <string name="variable_line_width">Линии разной ширины</string>
+    <string name="palette">Цветовая палитра</string>
+    <string name="palette_gray">Серый</string>
+    <string name="palette_violet">Фиолетовый</string>
+    <string name="palette_matrix">Зеленый экран</string>
+    <string name="palette_white_c">Белый медведь (динамическая)</string>
+    <string name="palette_black_c">Черная дыра (динамическая)</string>
+    <string name="palette_halloween">Хэллоуин</string>
+    <string name="palette_zenburn">Zenburn</string>
+    <string name="palette_oceanic">Море</string>
+</resources>

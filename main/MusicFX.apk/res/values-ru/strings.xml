@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Музыкальные эффекты</string>
+    <string name="no_effects">Эффекты недоступны.</string>
+    <string name="eq_dialog_title">Эквалайзер</string>
+    <string name="headset_plug">Подключите наушники для этих эффектов.</string>
+    <string name="bass_boost_strength">Усиление басов</string>
+    <string name="virtualizer_strength">Объемный звук</string>
+    <string name="setup">Настроить</string>
+    <string name="ci_extreme">Усилитель эффектов</string>
+    <string name="user">Пользователь</string>
+    <string name="picker_title">Панель управления звуковыми эффектами</string>
+</resources>

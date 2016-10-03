@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Медиа</string>
+    <string name="app_label">Медиа хранилище</string>
+    <string name="artist_label">Исполнитель</string>
+    <string name="ringtone_default">Мелодия по умолчанию</string>
+    <string name="notification_sound_default">Мелодия уведомления по умолчанию</string>
+    <string name="alarm_sound_default">Мелодия будильника по умолчанию</string>
+    <string name="root_images">Изображения</string>
+    <string name="root_videos">Видео</string>
+    <string name="root_audio">Музыка</string>
+    <string name="ringtone_silent">Без звука</string>
+    <string name="call_ringtone">Звук звонка</string>
+    <string name="short_message">Звук сообщения</string>
+    <string name="notification">Звук уведомления</string>
+    <string name="pick_from_music">Выберать из музыки</string>
+    <string name="pick_from_recorder">Выбрать из записей</string>
+    <string name="null_string" />
+    <string name="no_ringtone">Нет рингтонов</string>
+    <string name="no_music">Нет музыки</string>
+    <string name="no_record">Нет записей</string>
+    <string name="no_audio">Нет звуков</string>
+</resources>

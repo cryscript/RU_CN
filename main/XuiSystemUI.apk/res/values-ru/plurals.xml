@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_text">
+        <item quantity="other">У Вас %1$d уведомлений</item>
+        <item quantity="one">У Вас %1$d уведомление</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Неправильный SIM PIN код, у вас осталось %d попыток.</item>
+        <item quantity="one">Неправильный SIM PIN код, у вас осталось %d попытка(ок), потом обращайтесь к своему оператору для разблокировки устройства.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Неправильный SIM PUK код, у вас осталось %d попытка(ок), прежде чем SIM станет непригодной.</item>
+        <item quantity="one">Неправильный SIM PUK код, у вас осталось %d попытка(ок), прежде чем SIM станет непригодной.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Введите PIN код SIM карты, у вас осталось %d попытка(ок).</item>
+        <item quantity="one">Введите PIN код SIM карты, у вас осталось %d попытка(ок), потом обращайтесь к своему оператору для разблокировки устройства.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM карта теперь отключена. Введите PUK код, чтобы продолжить. У вас осталось %d попытка(ок), прежде чем SIM станет непригодной.</item>
+        <item quantity="one">SIM карта теперь отключена. Введите PUK код, чтобы продолжить. У вас осталось %d попытка(ок), прежде чем SIM станет непригодной.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message_bottom">
+        <item quantity="other">У вас осталось %d попытка(ок)</item>
+        <item quantity="one">У вас осталось %d попытка(ок). Если вы еще не разблокировали, обратитесь к вашему оператору.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_bottom">
+        <item quantity="other">«У вас осталось %d попытка(ок).»</item>
+        <item quantity="one">У вас осталось %d попытка(ок). Если вы еще не разблокировали, обратитесь к вашему оператору.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message_bottom">
+        <item quantity="other">У вас осталось %d попытка(ок) ввести правильный код. Если вы еще не разблокировали, обратитесь к вашему оператору</item>
+        <item quantity="one">У вас осталось %d попытка(ок) ввести правильный код. Если вы еще не разблокировали, обратитесь к вашему оператору</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_bottom">
+        <item quantity="other">У вас осталось %d попытка(ок) ввести правильный код. Если вы еще не ввести правильный код, прежде чем SIM станет непригодной.</item>
+        <item quantity="one">У вас осталось %d попытка(ок) ввести правильный код. Если вы еще не ввести правильный код, прежде чем SIM станет непригодной.</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d экранов просмотрено</item>
+        <item quantity="one">1 экран просмотрен</item>
+    </plurals>
+</resources>

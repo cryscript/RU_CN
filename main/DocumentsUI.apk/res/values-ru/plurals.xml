@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="copy_begin">
+        <item quantity="other">Копирование %1$d файлов.</item>
+        <item quantity="one">Копирование %1$d файла.</item>
+    </plurals>
+    <plurals name="copy_error_notification_title">
+        <item quantity="other">"Невозможно скопировать %1$d файлов"</item>
+        <item quantity="one">"Невозможно скопировать %1$d файл"</item>
+    </plurals>
+</resources>

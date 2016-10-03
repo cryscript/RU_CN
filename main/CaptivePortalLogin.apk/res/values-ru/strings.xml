@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CaptivePortalLogin</string>
+    <string name="action_use_network">Используйте эту сеть как</string>
+    <string name="action_do_not_use_network">Не используйте эту сеть</string>
+    <string name="action_bar_label">Войти в сеть</string>
+    <string name="ssl_error_warning">Вы пытаетесь присоединиться к сети, которая имеет проблемы с безопасностью.</string>
+    <string name="ssl_error_example">Например, страница входа не может принадлежать к данной организации</string>
+    <string name="ssl_error_continue">Продолжить в любом случае через браузер</string>
+    <string name="wifi_portal_cancel_text">Отмена</string>
+    <string name="wifi_portal_complete_text">Готово</string>
+    <string name="wifi_portal_login_text">Вход</string>
+    <string name="wifi_portal_auth_success">Успешно</string>
+</resources>

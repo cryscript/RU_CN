@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">%1$s диалогов будут удалены.</item>
+        <item quantity="one">1 диалог будет удален.</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%s сек</item>
+        <item quantity="one">%s сек</item>
+        <item quantity="few">%s сек</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s результаты для \"%2$s\"</item>
+        <item quantity="one">%1$s результаты для \"%2$s\"</item>
+    </plurals>
+    <plurals name="message_count_notification_overflow">
+        <item quantity="other">+%1$s другие сообщения</item>
+        <item quantity="one">+%1$s другое сообщение</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s чел.</item>
+    </plurals>
+    <plurals name="edit_model_Выбор_conv">
+        <item quantity="other">%1$s пунктов</item>
+        <item quantity="zero">Выбор</item>
+        <item quantity="one">%1$s item</item>
+    </plurals>
+    <plurals name="edit_model_Выбор_sms">
+        <item quantity="other">%1$s пунктов</item>
+        <item quantity="zero">Выбор</item>
+        <item quantity="one">%1$s пункт</item>
+    </plurals>
+    <plurals name="edit_model_Выбор_card">
+        <item quantity="other">%1$s пунктов</item>
+        <item quantity="zero">Выбор</item>
+        <item quantity="one">%1$s пункт</item>
+    </plurals>
+    <plurals name="few_minutes_before">
+        <item quantity="other">%1$s мин тому</item>
+        <item quantity="one">%1$s мин тому</item>
+    </plurals>
+</resources>

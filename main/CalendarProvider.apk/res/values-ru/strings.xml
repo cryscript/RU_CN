@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_storage">Хранилище календаря</string>
+    <string name="calendar_default_name">По умолчанию</string>
+    <string name="calendar_info">Инфо календаря</string>
+    <string name="calendar_info_error">Ошибка</string>
+    <string name="calendar_info_no_calendars">Нет календарей</string>
+    <string name="calendar_info_events">События: %1$d</string>
+    <string name="calendar_info_events_dirty">События: %1$d, Несохранено: %2$d</string>
+    <string name="provider_label">Календарь</string>
+    <string name="debug_tool_delete_button">Удалить сейчас</string>
+    <string name="debug_tool_start_button">Запуск</string>
+    <string name="debug_tool_message">Вы собираетесь 1) сделать копию данных календаря на SD карту/USB накопитель, который является удобочитаемым любым приложением, и 2) послать по электройнной почте. Не забудьте удалить копию, как только Вы скопировали ее от устройства, или электронное письмо получено.</string>
+    <string name="debug_tool_email_sender_picker">Выберите программу, чтобы послать Ваш файл</string>
+    <string name="debug_tool_email_subject">База календаря прикреплена</string>
+    <string name="debug_tool_email_body">Вложение - это мой календать со всеми задачами и моей личной информацией. Обращайтесть с ней осторожно.</string>
+</resources>
