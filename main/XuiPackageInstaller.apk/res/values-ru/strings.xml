@@ -82,7 +82,7 @@
     <string name="trust_title_msg">Доверять \"%1$s\"</string>
     <string name="custom_title_msg">Дополнительные настройки</string>
     <string name="see_more">Больше</string>
-    <string name="app_safe_desc">Инсталляционный пакет был проверен и признан безопасным</string>
+    <string name="app_safe_desc">Приложение было проверено и признано безопасным</string>
     <string name="quick_clean">Удалить</string>
     <string name="keep_install">Продолжить установку</string>
     <string name="request_clear">Это вирусное приложение. Удалите его немедленно</string>
@@ -157,9 +157,9 @@
     <string name="unknown_source_confirm">Запрос установки</string>
     <string name="confirm_msg_part1">"Предлагаем скачать с официального "</string>
     <string name="confirm_msg_part2">" , чтобы избежать угроз безопасности"</string>
-    <string name="confirm_msg_all">Предлагаем скачать с официального App Center, чтобы избежать угроз безопасности</string>
-    <string name="install_app_center">Установить Apps Center</string>
-    <string name="allow_once">Установить</string>
+    <string name="confirm_msg_all">Предлагаем скачать с официального центра приложений, чтобы избежать угроз безопасности</string>
+    <string name="install_app_center">Установить центр приложений</string>
+    <string name="allow_once">Разрешить сейчас</string>
     <string name="goto_settings">Apps Center</string>
     <string name="the_last_music">%1$s в настоящее время единственный музыкальный проигрыватель на вашем телефоне. Если его удалить, вы не сможете играть музыку на вашем телефоне, и все связанные данные будут потеряны.</string>
     <string name="the_last_video_player">%1$s в настоящее время единственный видеоплеер на вашем телефоне. Если его удалить, вы не сможете просматривать все видео на вашем телефоне, и все связанные данные будут потеряны.</string>
@@ -177,7 +177,7 @@
     <string name="app_store">"Apps Center "</string>
     <string name="app_source_suggest_2">)</string>
     <string name="restore_app_center">Установка центра приложений</string>
-    <string name="suggest_keep_appstore">Использовать \"App center\"</string>
+    <string name="suggest_keep_appstore">Использовать \"центр приложений\"</string>
     <string name="grant_dialog_button_allow">Разрешить</string>
     <string name="grant_dialog_button_deny">Отклонить</string>
     <string name="current_permission_template">%1$s из %2$s</string>

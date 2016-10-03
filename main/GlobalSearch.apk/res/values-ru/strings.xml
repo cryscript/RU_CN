@@ -5,7 +5,7 @@
     <string name="HttpAuthenticationDialog.Password">Пароль</string>
     <string name="HttpAuthenticationDialog.UserName">Имя</string>
     <string name="activity_download_done_can_not_find_open_method">К сожалению, нет программного обеспечения, чтобы открыть этот файл</string>
-    <string name="app">Приложения</string>
+    <string name="app">Прилож.</string>
     <string name="app_name">Глобальный поиск</string>
     <string name="can_not_find_open_software">Приложений не найдено</string>
     <string name="can_search_cat">для поиска</string>
@@ -18,7 +18,7 @@
     <string name="dialog_contact_desp">поиск контактов</string>
     <string name="dialog_exit">Выход</string>
     <string name="dialog_net">Доступ к сети</string>
-    <string name="dialog_net_desp">подключитесь к сети для поиска</string>
+    <string name="dialog_net_desp">подключение к сети для поиска</string>
     <string name="dialog_no_longer_tips">Не показывать снова</string>
     <string name="dialog_sms">Чтение сообщений</string>
     <string name="dialog_sms_desp">поиск сообщений</string>
@@ -27,7 +27,7 @@
     <string name="install">Загрузка</string>
     <string name="leapp">Результаты онлайн</string>
     <string name="ok">Хорошо</string>
-    <string name="schedule">Задача</string>
+    <string name="schedule">Задачи</string>
     <string name="search_hint">Поиск</string>
     <string name="search_setting_app">Приложения</string>
     <string name="search_setting_app_desp">поиск приложений</string>
@@ -42,7 +42,7 @@
     <string name="search_setting_sms">Сообщения</string>
     <string name="search_setting_sms_desp">поиск сообщений</string>
     <string name="setting">Настройки</string>
-    <string name="sms">Сообщения</string>
-    <string name="web">Интернет</string>
+    <string name="sms">Сообщ.</string>
+    <string name="web">WWW</string>
     <string name="web_sugg">Поиск в интернете</string>
 </resources>

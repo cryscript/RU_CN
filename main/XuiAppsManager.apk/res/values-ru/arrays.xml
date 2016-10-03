@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_array">
+        <item>Лаунчер</item>
+        <item>Телефон</item>
+        <item>Сообщения</item>
+        <item>Браузер</item>
+        <item>Камера</item>
+        <item>Галерея</item>
+        <item>Музыка</item>
+        <item>Эмейл</item>
+        <item>Видео</item>
+    </string-array>
+    <string-array name="sort_menu_items">
+        <item>Имя</item>
+        <item>Размер</item>
+        <item>Время</item>
+    </string-array>
+</resources>

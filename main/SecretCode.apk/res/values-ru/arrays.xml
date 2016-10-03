@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appLogType">
+        <item>системный журнал</item>
+        <item>журнал ядра</item>
+        <item>журнал сети</item>
+        <item>журнал модема</item>
+        <item>журнал bluetooth</item>
+        <item>журнал ramdump</item>
+        <item>журнал мощности/производительности</item>
+    </string-array>
+</resources>

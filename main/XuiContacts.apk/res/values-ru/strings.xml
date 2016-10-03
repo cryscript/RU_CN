@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="dialpad_0_number">0</string>
-    <string name="dialpad_1_number">1</string>
-    <string name="dialpad_2_number">2</string>
-    <string name="dialpad_3_number">3</string>
-    <string name="dialpad_4_number">4</string>
-    <string name="dialpad_5_number">5</string>
-    <string name="dialpad_6_number">6</string>
-    <string name="dialpad_7_number">7</string>
-    <string name="dialpad_8_number">8</string>
-    <string name="dialpad_9_number">9</string>
-    <string name="dialpad_star_number">*</string>
-    <string name="dialpad_pound_number">\#</string>
-    <string name="dialpad_0_letters">+</string>
-    <string name="dialpad_1_letters" />
-    <string name="dialpad_2_letters">АБВГ</string>
-    <string name="dialpad_3_letters">ДЕЁЖЗ</string>
-    <string name="dialpad_4_letters">ИЙКЛ</string>
-    <string name="dialpad_5_letters">МНОП</string>
-    <string name="dialpad_6_letters">РСТУ</string>
-    <string name="dialpad_7_letters">ФХЦЧ</string>
-    <string name="dialpad_8_letters">ШЩЪЫ</string>
-    <string name="dialpad_9_letters">ЬЭЮЯ</string>
-    <string name="dialpad_star_letters" />
-    <string name="dialpad_pound_letters" />
-    <string name="description_dialpad_overflow">Еще</string>
-    <string name="description_delete_button">backspace</string>
-    <string name="description_image_button_plus">plus</string>
-    <string name="description_voicemail_button">voicemail</string>
     <string name="default_notification_description">Стандартный звук (%1$s)</string>
     <string name="callFailed_userBusy">Занятая линия</string>
     <string name="callFailed_congestion">Сеть занята</string>

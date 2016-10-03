@@ -89,9 +89,9 @@
     <string name="contains_file">1 объект</string>
     <string name="contains_files">%1$d объектов</string>
     <string name="loading">Загрузка…</string>
-    <string name="uninstalled">Не установлен</string>
-    <string name="renewable">Обновляемый</string>
-    <string name="installed">Установлен</string>
+    <string name="uninstalled">Не установлено</string>
+    <string name="renewable">Обновляемое</string>
+    <string name="installed">Установлено</string>
     <string name="cannot_contains">Имя не может содержать специальные символы %1$s</string>
     <string name="file_exists">Файл с этим именем уже существует. Попробуйте другое имя</string>
     <string name="name_too_long">Длина имени выходит за пределы ограничения</string>
