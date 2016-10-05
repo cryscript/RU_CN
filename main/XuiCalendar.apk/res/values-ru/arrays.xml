@@ -270,7 +270,7 @@
         <item>2</item>
     </integer-array>
     <string-array name="popup_more_items">
-        <item>Обзорный список</item>
+        <item>Список событий</item>
         <item>Просмотр года</item>
         <item>Настройки</item>
     </string-array>
@@ -287,6 +287,15 @@
         <item>Полет</item>
         <item>День рождения</item>
     </string-array>
+    <string-array name="agenda_descriptions">
+        <item>【Путешествие】</item>
+        <item>【Оплата】</item>
+        <item>【Встреча】</item>
+        <item>【Конференция】</item>
+        <item>【Юбилей】</item>
+        <item>【Полет】</item>
+        <item>【День дождения】</item>
+    </string-array>
     <string-array name="week_day">
         <item>Воскресенье</item>
         <item>Понедельник</item>
@@ -295,6 +304,20 @@
         <item>Четверг</item>
         <item>Пятница</item>
         <item>Суббота</item>
+    </string-array>
+    <string-array name="month_number_digit">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
     </string-array>
     <string-array name="all_day_reminder_values">
         <item>Не напоминать</item>
@@ -308,6 +331,11 @@
         <item>Изменение этого события и будущих событий</item>
         <item>Изменить все события</item>
     </string-array>
+    <integer-array name="edit_repeating_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
     <string-array name="shengxiao_text">
         <item>Мышь</item>
         <item>Которва</item>

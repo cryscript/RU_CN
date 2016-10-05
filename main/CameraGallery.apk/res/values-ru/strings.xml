@@ -832,7 +832,7 @@ FPS"</string>
     <string name="settings">Settings</string>
     <string name="add_account">Add account</string>
     <string name="folder_camera">Камера</string>
-    <string name="folder_download">Скачать</string>
+    <string name="folder_download">Загруженное</string>
     <string name="folder_edited_online_photos">Edited Online Photos</string>
     <string name="folder_imported">Imported</string>
     <string name="folder_screenshot">Screenshot</string>

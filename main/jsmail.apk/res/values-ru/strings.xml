@@ -351,7 +351,7 @@
     <string name="confirm_send_message">Отправить сообщение?</string>
     <string name="confirm_send_message_with_no_body">В сообщении нет текста.</string>
     <string name="confirm_send_message_with_no_subject">Поле «Тема» пустое.</string>
-    <string name="confirm_send_sub_message_with_no_subject">автоматически добавить тему</string>
+    <string name="confirm_send_sub_message_with_no_subject">добавить тему автоматически</string>
     <string name="confirm_send_title">Отправить сообщение?</string>
     <string name="contact_content_provider">Связаться с контент провайдером</string>
     <string name="contact_edit_name_hint">Одно слово или две буквы</string>

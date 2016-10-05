@@ -109,7 +109,7 @@
     <string name="fp_pwd_alipay_unlock_summary">Использовать отпечаток для AliPay</string>
     <string name="fp_pwd_category_fp_title">Отпечатки пальцев</string>
     <string name="fp_pwd_def_name">Отпечаток пальца</string>
-    <string name="fp_pwd_add_fp_title">Добавить Отпечаток</string>
+    <string name="fp_pwd_add_fp_title">Добавить отпечаток</string>
     <string name="fp_pwd_add_fp_summary">Для того, чтобы повысить скорость идентификации, вы можете добавить несколько отпечатков пальцев</string>
     <string name="fp_pwd_sofu_title">Когда экран отключен</string>
     <string name="fp_pwd_sofu">Исп. кнопку Домой для разблокировки</string>
