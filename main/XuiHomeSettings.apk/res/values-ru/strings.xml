@@ -111,9 +111,9 @@
     <string name="didi_title">Диди путешествия</string>
     <string name="uber_title">Uber</string>
     <string name="ctrip_title">Ctrip</string>
-    <string name="qunaer_title">去哪儿旅行</string>
-    <string name="hanglv_title">航旅纵横</string>
-    <string name="hangban_title">航班管家</string>
+    <string name="qunaer_title">Qunaer</string>
+    <string name="hanglv_title">Hanglv</string>
+    <string name="hangban_title">Hangban</string>
     <string name="font_recommend_table">Рекомендуемые</string>
     <string name="font_local_table">Мои</string>
     <string name="font_download_button">Скачать</string>
