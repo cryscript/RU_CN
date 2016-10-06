@@ -35,5 +35,5 @@ XuiFileManager.apk      | Перевод не полный
 XuiLauncher.apk         | Отсутствует перевод strings.xml 
 XuiSdac.apk             | Перевод отсутствует
 XuiSecurity.apk         | Перевод не полный
-XuiUHealth.apk          | Перевод не полный, в папке assets в *.hml вайлах сбилась кодировка и нужно все делать заново.
+XuiUHealth.apk          | Перевод не полный, в папке assets в *.html вайлах сбилась кодировка и нужно все делать заново.
 XuiZRoaming.apk         | Перевод почти отсутствует
