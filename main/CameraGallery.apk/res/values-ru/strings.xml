@@ -315,9 +315,9 @@
     <string name="dialog_ok">OK</string>
     <string name="dialog_cancel">Отмена</string>
     <string name="spaceIsLow_content">На Вашей SD-карте заканчивается свободное место. Измените настройки качества или удалите какие-нибудь изображения или другие файлы.</string>
-    <string name="image_file_name_format">"'IMG'_ггггММдд_ЧЧммсс"</string>
-    <string name="video_file_name_format">"'VID'_ггггММдд_ЧЧммсс"</string>
-    <string name="pano_file_name_format">"'PANO'_ггггММдд_ЧЧммсс"</string>
+    <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
+    <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
+    <string name="pano_file_name_format">"'PANO'_yyyyMMdd_HHmmss"</string>
     <string name="video_reach_size_limit">Достигнут максимальный размер.</string>
     <string name="pano_too_fast_prompt">Слишком быстро</string>
     <string name="pano_dialog_prepare_preview">Подготовка панорамы</string>
