@@ -45,7 +45,7 @@
     <string name="callFailed_fdn_only">Исходящие вызовы запрещены функцией FDN.</string>
     <string name="callFailed_cb_enabled">"Вы не можете совершать исходящие вызовы когда включена функция запрета вызовов."</string>
     <string name="callFailed_dsac_restricted">Все вызовы запрещены контролем доступа.</string>
-    <string name="callFailed_dsac_restricted_emergency">Аварийные вызовы запрещены контролем доступа.</string>
+    <string name="callFailed_dsac_restricted_emergency">Экстренные вызовы запрещены контролем доступа.</string>
     <string name="callFailed_dsac_restricted_normal">Обычные вызовы запрещены контролем доступа.</string>
     <string name="callFailed_unobtainable_number">Неправильный номер</string>
     <string name="incall_error_missing_voicemail_number">Номер голосовой почты неизвестен.</string>
@@ -81,8 +81,8 @@
     <string name="sms_home">Отправить SMS на домашний текст</string>
     <string name="sms_mobile">Отправить SMS на мобильный</string>
     <string name="sms_work">Отправить SMS на рабочий</string>
-    <string name="sms_fax_work">Отправить SMS на рабочий факсу</string>
-    <string name="sms_fax_home">Отправить SMS на домашний факсу</string>
+    <string name="sms_fax_work">Отправить SMS на рабочий факс</string>
+    <string name="sms_fax_home">Отправить SMS на домашний факс</string>
     <string name="sms_pager">Отправить SMS на пейджер</string>
     <string name="sms_other">Отправить SMS</string>
     <string name="sms_callback">Ответить на текстовое сообщение</string>
@@ -191,7 +191,7 @@
     <string name="menu_done">Готово</string>
     <string name="menu_doNotSave">Отмена</string>
     <string name="listAllContactsInAccount">Контакты в %s</string>
-    <string name="listCustomView">Контакты в пользовательском виде</string>
+    <string name="listCustomView">Пользовательский вид контактов</string>
     <string name="listSingleContact">Одиночный контакт</string>
     <string name="dialog_new_contact_account">Создать контакт в аккаунте</string>
     <string name="manage_sim_contacts">Управление контактами SIM-карты</string>
@@ -226,7 +226,7 @@
     <string name="exporting_contact_failed_title">"Не удалось экспортировать"</string>
     <string name="exporting_contact_failed_message">"Данные с контактами не были экспортированы. 
     Причина: \"%s\""</string>
-    <string name="no_sdcard_message">SD-карта не была обнаружена.</string>
+    <string name="no_sdcard_message">SD-карта не обнаружена.</string>
     <string name="confirm_export_message">Ваш список контактов будет экспортирован в файл: %s.</string>
     <string name="importing_vcard_description">Импорт %s</string>
     <string name="reading_vcard_failed_title">"Не удалось прочитать данные визитной карточки vCard"</string>
@@ -243,7 +243,7 @@
     <string name="percentage">%s%%</string>
     <string name="vcard_import_failed">"Не удалось импортировать визитную карточку vCard."</string>
     <string name="import_failure_no_file">Не найдены файлы на устройствах хранения</string>
-    <string name="import_failure_no_vcard_file">На SD карте файл визитной карточки vCard не обнаружен.</string>
+    <string name="import_failure_no_vcard_file">На SD-карте файл визитной карточки vCard не обнаружен.</string>
     <string name="nfc_vcard_file_name">Контакт, полученный посредством NFC</string>
     <string name="confirm_export_title">Экспортировать контакты?</string>
     <string name="select_vcard_title">Выберите файл визитной карточки vCard</string>
@@ -295,7 +295,7 @@
     <string name="export_cancelled">Экспорт отменен, %s элементов экспортировано</string>
     <string name="export_no_phone_or_email">Сбой экспорта, у %s контактов нет телефона/адреса эл.почты</string>
     <string name="import_from_sim_select">Выберите SIM-карту для импорта</string>
-    <string name="no_sdcard_title">Нет SD Карты</string>
+    <string name="no_sdcard_title">Нет SD карты</string>
     <string name="deleteConfirmation_title">Удалить контакт?</string>
     <string name="deleteConfirmation">Этот контакт будет удален.</string>
     <string name="slot_name">SIM</string>
@@ -330,7 +330,7 @@
     <string name="AssociationTypeSpouse">Супруг(а)</string>
     <string name="AssociationTypePartner">Партнер</string>
     <string name="AssociationTypeChildren">Ребенок</string>
-    <string name="AssociationTypeAssistant">Помошник</string>
+    <string name="AssociationTypeAssistant">Помощник</string>
     <string name="AssociationTypeBoss">Босс</string>
     <string name="AssociationTypeOther">Остальные</string>
     <string name="AssociationTypeCustom">Пользовательские</string>
@@ -395,7 +395,7 @@
     <string name="voicemail_fetching_content">Получение голосовой почты ...</string>
     <string name="voicemail_fetching_timout">Не удалось получить голосовую почту.</string>
     <string name="call_log_voicemail_header">Показать только голосовые сообщения</string>
-    <string name="call_log_incoming_header">Показать только входящие звонки</string>
+    <string name="call_log_incoming_header">Показать только входящие вызовы</string>
     <string name="call_log_outgoing_header">Показать только исходящие вызовы</string>
     <string name="call_log_missed_header">Показать только пропущенные вызовы</string>
     <string name="voicemail_status_voicemail_not_available">Невозможно подключиться к серверу голосовой почты.</string>
@@ -527,7 +527,7 @@
     <string name="voicemail_play_start_pause">Запустить или приостановить воспроизведение.</string>
     <string name="list_delimeter">" "</string>
     <string name="general_settings_label">Общие настройки</string>
-    <string name="general_settings_description">Экран контактов, аварийные и быстрые обратные вызовы</string>
+    <string name="general_settings_description">Экран контактов, экстренные и быстрые обратные вызовы</string>
     <string name="contact_display_options_category_title">Параметры экрана контактов</string>
     <string name="sounds_and_vibrate_category_title">Образцы звуков и вибрации</string>
     <string name="ringtone_title">Мелодии</string>
@@ -635,7 +635,7 @@
     <string name="add_connection_button">Добавить соединение</string>
     <string name="recent">Недавнее</string>
     <string name="recent_updates">Недавние обновления</string>
-    <string name="account_type_format">%1$s contact</string>
+    <string name="account_type_format">%1$s контакт</string>
     <string name="from_account_format">%1$s</string>
     <string name="use_photo_as_primary">Использовать эту фотографию</string>
     <string name="contact_read_only">Не доступно для редактирования из этого приложения.</string>
@@ -752,7 +752,7 @@
     <string name="header_website_entry">Веб-сайт</string>
     <string name="header_event_entry">Событие</string>
     <string name="header_relation_entry">Отношение</string>
-    <string name="content_description_directions">Для конкретного назначения</string>
+    <string name="content_description_directions">направление по назначению</string>
     <string name="content_description_recent_sms">последнее SMS. %s. нажмите, чтобы ответить</string>
     <string name="content_description_recent_call_type_incoming">входящий</string>
     <string name="content_description_recent_call_type_outgoing">исходящий</string>
@@ -1038,7 +1038,7 @@
     <string name="stroage_size">Сохранить %s человек</string>
     <string name="sim_stroage_free">Осталось место для %s контактов</string>
     <string name="simcard_selected_contacts_title">Выбрано %s</string>
-    <string name="simcard_unselected_btn_title">Убрать выделение со всего</string>
+    <string name="simcard_unselected_btn_title">Снять выделение со всего</string>
     <string name="simcard_selected_btn_title">Выбрать все</string>
     <string name="import_from_lenovo_account">Аккаунт ZUK</string>
     <string name="toast_caller_id_delete">Запись из списка вызовов была удалена</string>
@@ -1154,7 +1154,7 @@
     <string name="unkown_number">Неизвестный</string>
     <string name="contact_edit_profile">Персональная информация</string>
     <string name="contact_edit_ring_nothing">Нет</string>
-    <string name="ImportVCardActivityActivityLabel">Импотр файла визитной карточки vCard</string>
+    <string name="ImportVCardActivityActivityLabel">Импорт файла визитной карточки vCard</string>
     <string name="relate_start_invalid">Не удалось открыть</string>
     <string name="see_all_calls">Посмотреть весь список вызовов</string>
     <string name="isVoicemailNumber">Голосовая почта</string>
