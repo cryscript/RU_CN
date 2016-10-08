@@ -31,7 +31,6 @@ XuiBrowser.apk          | Перевод не полный
 XuiCalendar.apk         | Перевод не полный
 XuiContacts.apk         | Не полный перевод файла arrays.xml
 XuiEasySync.apk         | Перевод не полный
-XuiFileManager.apk      | Перевод не полный
 XuiLauncher.apk         | Отсутствует перевод strings.xml 
 XuiSdac.apk             | Перевод отсутствует
 XuiSecurity.apk         | Перевод не полный
