@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Местоположение сети</string>
-    <string name="location_warning_title">Location consent</string>
-    <string name="location_warning_message">"When Autonavi NLP (Network Location Provider) function is opened, you will allow AutoNavi NLP service to collect anonymous location data. Some data may be encrypted and stored on your device. Encryption and collection may occur even when no apps are running. You may be charged for data traffic. The collected anonymous location data will be used for improving the performance and accuracy of the location service. Autonavi promises the collected anonymous location data will not be provided to others or be used for other purposes except to render services. The data to be collected includes the followings:
-- ID, Signal Strength of WLAN AP to be surveyed from the periphery;
-- ID, Signal Strength to be surveyed from the peripheral base station (for GSM);
-- ID, Signal Strength to be surveyed from the peripheral base station (for CDMA)."</string>
+    <string name="location_warning_title">Соглашение о местоположении</string>
+    <string name="location_warning_message">"Когда функция AutoNavi NLP (Network Location Provider - Провайдер Местоположения Сети) будет открыта, Вы позволите службе AutoNavi NLP собирать анонимные данные о местоположении. Некоторые данные могут шифроваться и храниться на Вашем устройстве. Шифрование и сбор данных могут произойти, даже когда никакие приложения не работают. Вы можете платить за трафик данных. Собранные анонимные данные о местоположении будут использоваться для улучшения производительности и точности службы определения местоположения. AutoNavi обещает, что собранные анонимные данные о местоположении не будут предоставлены третьим лицам или использоваться для других целей, кроме предоставления услуг. Данные, которые будут собраны, включают следующее:
+- Идентификатор (ID), сила сигнала сети WLAN, которая будет опрошена с периферии;
+- Идентификатор (ID), сила сигнала, которая будет опрошена от периферийной базовой станции (для сетей GSM);
+- Идентификатор (ID), сила сигнала, которая будет опрошена от периферийной базовой станции (для сетей CDMA)."</string>
     <string name="agree">Согласен</string>
     <string name="disagree">Не согласен</string>
     <string name="location_warning_do_not_show_again">"Не показывать снова"</string>
     <string name="wifi_scan_always">Всегда разрешать сканирование</string>
     <string name="wifi_scan_tips">Разрешить сервисы определения местоположения сети и приложения для сканирования сетей WLAN, даже если WLAN выключен.</string>
-    <string name="persmission_notification_title">Требуется разрешение Расположение сети</string>
+    <string name="persmission_notification_title">Приложению Местоположение сети требуются разрешения</string>
     <string name="persmission_notification_text">Нажмите, чтобы предоставить</string>
-    <string name="persmission_message">Для правильной работы, эта служба требует дополнительных разрешений. Пожалуйста, предоставьте разрешения.</string>
-    <string name="persmission_message2">Для правильной работы, эта служба требует доступа к памяти. Пожалуйста, предоставьте разрешения.</string>
-    <string name="persmission_message3">Для правильной работы, эта служба требует доступа к местоположению. Пожалуйста, предоставьте разрешения.</string>
-    <string name="persmission_message4">Для правильной работы, эта служба требует доступа к телефону. Пожалуйста, предоставьте разрешения.</string>
-    <string name="persmission_message5">"Для правильной работы, эта служба требует дополнительных разрешений. Вы можете управлять разрешениями Местоположение сети в настройках."</string>
-    <string name="persmission_message6">"Для правильной работы, эта служба требует доступа к местоположению. Вы можете управлять разрешениями Местоположение сети в настройках."</string>
-    <string name="persmission_message7">"Для правильной работы, эта служба требует доступа к телефону. Вы можете управлять разрешениями Местоположение сети в настройках."</string>
-    <string name="persmission_message8">"Для правильной работы, эта служба требует доступа к памяти. Вы можете управлять разрешениями Местоположение сети в настройках."</string>
-    <string name="persmission_ok">Хорошо</string>
+    <string name="persmission_message">Для правильной работы эта служба требует дополнительных разрешений. Пожалуйста, предоставьте разрешения.</string>
+    <string name="persmission_message2">Для правильной работы эта служба требует доступа к памяти. Пожалуйста, предоставьте разрешения.</string>
+    <string name="persmission_message3">Для правильной работы эта служба требует доступа к местоположению. Пожалуйста, предоставьте разрешения.</string>
+    <string name="persmission_message4">Для правильной работы эта служба требует доступа к телефону. Пожалуйста, предоставьте разрешения.</string>
+    <string name="persmission_message5">"Для правильной работы эта служба требует дополнительных разрешений. Вы можете управлять разрешениями приложения Местоположение сети в настройках."</string>
+    <string name="persmission_message6">"Для правильной работы эта служба требует доступа к местоположению. Вы можете управлять разрешениями приложения Местоположение сети в настройках."</string>
+    <string name="persmission_message7">"Для правильной работы эта служба требует доступа к телефону. Вы можете управлять разрешениями Местоположение сети в настройках."</string>
+    <string name="persmission_message8">"Для правильной работы эта служба требует доступа к памяти. Вы можете управлять разрешениями Местоположение сети в настройках."</string>
+    <string name="persmission_ok">ОК</string>
     <string name="persmission_close">Закрыть</string>
     <string name="persmission_settings">Настройки</string>
 </resources>
